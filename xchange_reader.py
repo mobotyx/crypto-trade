@@ -20,12 +20,13 @@ class XChangeReader:
     # granularity in seconds for distance between each datapoint 
     # currency indicate the currency to which we request ex. 'LTC-EUR'
     # save_csv indicate if we want to keep a copy into a csv file of the data
+	# ex. read_gdaxdata("2017-12-18T23:00:00.000000Z", "2017-12-19T23:00:00.000000Z", 600, 'LTC-EUR', False,False)
+	# ex. return between midnight 19/12 and 23h50 19/12 
     def read_gdaxdata(self, start, end, granularity, currency, save_csv = False, reverse=False):
     
         d = self.__gdax_public.get_product_historic_rates(currency, granularity=granularity, start=start, end=end)
         # build the dataframe 
         df = pd.DataFrame(d)
-        
         df.columns = ['timestamp', 'low', 'high', 'open', 'close', 'volume']
         df.insert(1, 'datetime', '')
         df['datetime'] = df['timestamp'].apply(datetime.fromtimestamp)

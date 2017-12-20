@@ -35,6 +35,9 @@ class Strategy:
      
             break
 
+    def volume_indicator():
+        pass
+
     def buy_signal(self):
         return self.__buy
 

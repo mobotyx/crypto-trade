@@ -14,8 +14,8 @@ file = None
 ntp_server = 'europe.pool.ntp.org'
 investment = 1000                       # Initial Allocated budget
 currency = 'LTC-EUR'                    # currency     
-granularity = 600                       # resolution in seconds (datapoints spacing)
-memory = 3                              # number of points into the past that the strategy uses
+granularity = 600                       # We gather points spaced 10 minutes each
+memory = 6                              # 6 times 10 minutes = one hour horizon 
 
 def LogPrint(str_line):
     print(str_line)
@@ -84,8 +84,8 @@ def run_realtime(xreader, strategy):
         time_now  = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(utc_time)
         time_past = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(utc_time - timedelta(seconds=granularity*memory))
 
-        print(time_now)
-        print(time_past)
+        print("NOW: " + time_now)
+        print("BACK:" + time_past)
 
         # Read Data points from now to some time in the past 
         # Tick the strategy to deduce BUY and SELL signals
@@ -174,11 +174,6 @@ def main(argv):
 
     
 
-
-
-
-
-    
    # file = open("log/" + currency + str(granularity) + "- " + str(day_start) + " to " + str(day_end) + ".txt", "w")
    # file.close()
 
