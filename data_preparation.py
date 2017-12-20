@@ -8,8 +8,9 @@ import time
 import pandas as pd
 import xchange_reader as xr
 
-cur_date = "2017-12-19T23:00:00.000000Z"
-ndays = 5 # number of days to go behind
+cur_day  = "2017-12-19"
+cur_date = cur_day + "T23:00:00.000000Z"
+ndays = 2 # number of days to go behind
 granularity = 600 # 10 minutes
 currency = 'LTC-EUR'
 
@@ -48,8 +49,8 @@ for i in range(0, ndays):
     time.sleep(5)
 
 # save the total frame into a csv file
-total_frame = total_frame.iloc[::-1] # reverse for ascending time
-total_frame.to_csv('test_total_frame.csv')
+total_frame = total_frame.iloc[::-1]  # reverse for ascending time
+total_frame.to_csv( currency + "-" + str(granularity) + '-history.csv')
     
     
     
