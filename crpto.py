@@ -13,68 +13,19 @@ import money_pool as mp
 file = None 
 ntp_server = 'europe.pool.ntp.org'
 investment = 1000                       # Initial Allocated budget
-currency = 'LTC-EUR'                    # currency     
+currency = 'LTC-EUR'                    # currency
 granularity = 600                       # We gather points spaced 10 minutes each
-memory = 6                              # 6 times 10 minutes = one hour horizon 
+backtest_file_path = "./market-data/LTC-EUR-600-history.csv" # Note: this file must contain price points with the same spacing as granularity
+memory = 6                              # 6 times granularity - This is the time-horizon we look into the past
 
 def LogPrint(str_line):
     print(str_line)
     file.write(str_line + '\n')
 
-def add_datetime(time_info):
-    return parser.parse(time_info)
-
-
-## BUY when the previous session close price is higher than open price 
-## Money is pooled in chunks to average out wins vs losses 
-## As long as there is money to invest and the bar is green, put the next chunk
-## The first Red detected and take all the money out and assume the win or the loss
-def strategy_1(df, invest = 1000, pools = [0.6,0.35,0.05], transaction_fee = 0.0025):
-    
-    LogPrint("STRATEGY #1-RUN - BUY WHEN A SESSION CLOSE PRICE IS HIGHER THAN OPEN @ CLOSE PRICE")
-    LogPrint("POOL MONEY EVERY TIME A SESSION IS GREEN:" )
-
-    for i in range(0, len(pools)):
-        LogPrint("POOL #" + str(i) + " %" + str(pools[i]*100) + " Amount: " + str(pools[i]*invest))
-
-    LogPrint("WHEN A SESSION CLOSE WITH A CLOSE PRICE LOWER THAN OPEN, SELL ALL @CLOSE PRICE AND WAIT FOR NEXT GREEN")
-
-    pool_id = 0
-    df['BUY-Amount'] = 0.0
-    df['BUY-Qty']    = 0.0
-    df['SELL-Amount'] = 0.0
-    df['SELL-Qty']    = 0.0
-    df['Account']     = 0.0
-    df['Gain']        = 0.0
-    
-    total_qty = 0
-    total_invested = 0
-
-    for i, (index, row) in enumerate(df.iterrows()):
-
-        if row['RG'] == '':
-            continue
-
-        if row['RG'] == 'GREEN' and pool_id < len(pools) and i < (len(df) - 1):
-
-            buy_amount = invest*pools[pool_id] - transaction_fee*invest*pools[pool_id]
-
-            df.loc[index, 'BUY-Amount'] = buy_amount
-            df.loc[index, 'BUY-Qty']  = buy_amount/df.loc[index, 'close']
-            total_qty = total_qty + buy_amount/df.loc[index, 'close']
-            total_invested = total_invested + invest*pools[pool_id]
-            pool_id = pool_id + 1
-            
-        elif row['RG'] == 'RED' or i == (len(df) - 1):
-            df.loc[index, 'SELL-Qty'] = total_qty
-            df.loc[index, 'SELL-Amount'] = total_qty * df.loc[index, 'close'] 
-            df.loc[index, 'Account'] = total_qty * df.loc[index, 'close'] + invest - total_invested
-            df.loc[index, 'Gain'] = df.loc[index, 'Account'] - invest 
-            pool_id = 0
-            total_qty = 0
-            total_invested = 0
-
-
+# Real Time Run - Getting information directly from the Exchange
+# First read the Data from the exchange between NOW and granularity*memory in the past
+# Run the stategy to get BUY or SELL signals 
+# we sleep everytime the amount of granularity
 def run_realtime(xreader, strategy):
     ntp = ntplib.NTPClient() # to get UTC time
     while(True):
@@ -84,8 +35,9 @@ def run_realtime(xreader, strategy):
         time_now  = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(utc_time)
         time_past = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(utc_time - timedelta(seconds=granularity*memory))
 
+        print("PAST:" + time_past)
         print("NOW: " + time_now)
-        print("BACK:" + time_past)
+        
 
         # Read Data points from now to some time in the past 
         # Tick the strategy to deduce BUY and SELL signals
@@ -94,29 +46,59 @@ def run_realtime(xreader, strategy):
         buy_sig  = strategy.buy_signal()
         sell_sig = strategy.sell_signal()
 
+        # TODO: Position Open/Close Management
+
         print(df)
         time.sleep(granularity)
 
+# Given a CSV file containing CryptoCurrency historic prices
+# We emulate a Trading Run between the starting time and ending time of the timeseries
+# And we iterate in a similar fashion as the real-time run
+def run_backtest(xreader, strategy):
+    global granularity
 
-def run_backtest(xreader, strategy, back_days):
-    ntp = ntplib.NTPClient() # to get UTC time
+    # First and last from the file define when we start and when we stop
+    ts_start    = xreader.get_gdaxcsv_timestamp(backtest_file_path, select='first')
+    ts_end      = xreader.get_gdaxcsv_timestamp(backtest_file_path, select='last')
 
-    start = datetime.utcfromtimestamp(ntp.request(ntp_server).tx_time) - timedelta(days=back_days)
-    end   = datetime.utcfromtimestamp(ntp.request(ntp_server).tx_time) # current UTC at start 
+    # technically, if unable to open the file, just stop
+    if ts_start == None or ts_end == None:
+        print("ERROR occured, Returning")
+        return
+
+    gran = xreader.get_gdaxcsv_granularity(backtest_file_path)
+    
+    if gran != granularity:
+        print("WARNING - Granularity found different in file than Initial value - File value is assumed: " + str(gran))
+        granularity= gran
+
+    start = datetime.fromtimestamp(ts_start)
+    end   = datetime.fromtimestamp(ts_end)
 
     mopool = mp.MoneyPool(currency, investment) # Init Money Pooler with our initial Investment 
-
+    
     while(start < end):
         # emulate current time as old time by X days from now
         # Note : Server always return +1 hour results from the request UTC time
-        time_now  = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(hours=1)) 
-        time_past = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(hours=1, seconds=granularity*memory))
+        time_now  = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start) 
+        time_past = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(seconds=granularity*memory))
 
         print("PAST: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(seconds=granularity*memory)))
         print("NOW: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start) )
         print("\n")
-      
-        df = xreader.read_gdaxdata(time_past, time_now, granularity, currency, True, True)    
+        
+        # get slice of data from the CSV file
+        df = xreader.read_gdaxcsvdata(time_past, time_now, backtest_file_path)   
+        
+        # will be empty when timestamp goes out of bounds
+        if df.empty:
+            print("End of Data - Closing Last position if any")
+            # sell all in the end
+            if mopool.get_quantity() != 0.0:
+                mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
+            mopool.print_account()
+            return 
+
         strategy.tick(df)
 
         buy_sig  = strategy.buy_signal()
@@ -135,7 +117,7 @@ def run_backtest(xreader, strategy, back_days):
         
         
         start = start + timedelta(seconds=granularity) # advance time
-        time.sleep(5)
+        #time.sleep(5)
     
     # sell all in the end
     if mopool.get_quantity() != 0.0:
@@ -146,7 +128,6 @@ def run_backtest(xreader, strategy, back_days):
 def main(argv):
 
     back_mode = False
-    back_days = 0
    
     # Either we run in real-time mode with current market data feed 
     # or we can force a back-test mode where we give the algorithm the number of days 
@@ -154,15 +135,14 @@ def main(argv):
 
     if len(argv) == 0:
         print("Trader Started Running in Real-Time Mode\n")
-    elif len(argv) !=2:
-        print("Usage : Start without Args for Real-Time or -b <days> for backtesting for a number of previous days\n")
+    elif len(argv) !=1:
+        print("Usage : Start without Args for Real-Time or -b for backtesting for a number of previous days\n")
         sys.exit(2)
     elif argv[0] !='-b':
-        print("Usage : Start without Args for Real-Time or -b <days> for backtesting for a number of previous days\n")
+        print("Usage : Start without Args for Real-Time or -b  for backtesting for a number of previous days\n")
         sys.exit(2)
     else:
         back_mode = True
-        back_days = int(argv[1])
 
     xreader = xr.XChangeReader()                    # init Exchange Data Reader
     strategy = stg.Strategy(currency, granularity)  # init strategy with the target currency
@@ -170,7 +150,7 @@ def main(argv):
     if not back_mode:
         run_realtime(xreader,strategy)
     else:
-        run_backtest(xreader,strategy, back_days)
+        run_backtest(xreader,strategy)
 
     
 

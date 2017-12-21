@@ -4,13 +4,14 @@
 
 from datetime import datetime, timedelta
 from dateutil import parser
+import os
 import time
 import pandas as pd
 import xchange_reader as xr
 
 cur_day  = "2017-12-19"
 cur_date = cur_day + "T23:00:00.000000Z"
-ndays = 2 # number of days to go behind
+ndays = 15 # number of days to go behind
 granularity = 600 # 10 minutes
 currency = 'LTC-EUR'
 
@@ -50,7 +51,15 @@ for i in range(0, ndays):
 
 # save the total frame into a csv file
 total_frame = total_frame.iloc[::-1]  # reverse for ascending time
-total_frame.to_csv( currency + "-" + str(granularity) + '-history.csv')
+
+target_folder = "market-data/"
+
+dir = os.path.dirname(target_folder)
+if not os.path.exists(dir):
+    os.makedirs(dir)
+    
+rel_path = target_folder + currency + "-" + str(granularity) + '-' + cur_day + '-' + ndays + '-history.csv'
+total_frame.to_csv(rel_path)
     
     
     
