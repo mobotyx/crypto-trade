@@ -9,6 +9,7 @@ import ntplib
 import xchange_reader as xr
 import strategy as stg
 import money_pool as mp
+import technical_indicators as ti
 
 file = None 
 ntp_server = 'europe.pool.ntp.org'
@@ -16,7 +17,9 @@ investment = 1000                       # Initial Allocated budget
 currency = 'LTC-EUR'                    # currency
 granularity = 600                       # We gather points spaced 10 minutes each
 backtest_file_path = "./market-data/LTC-EUR-600-history.csv" # Note: this file must contain price points with the same spacing as granularity
-memory = 6                              # 6 times granularity - This is the time-horizon we look into the past
+memory = 4                             # 6 times granularity - This is the time-horizon we look into the past
+### BEST RUN for MA crossover algorithm is a memory of 4 x 10 minutes.
+### TODO: check to fill gaps in data an rerun
 
 def LogPrint(str_line):
     print(str_line)
@@ -83,44 +86,50 @@ def run_backtest(xreader, strategy):
         time_now  = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start) 
         time_past = "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(seconds=granularity*memory))
 
-        print("PAST: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(seconds=granularity*memory)))
-        print("NOW: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start) )
-        print("\n")
+        #print("PAST: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start - timedelta(seconds=granularity*memory)))
+        #print("NOW: " + "{:%Y-%m-%dT%H:%M:%S.000000Z}".format(start) )
+        #print("\n")
         
         # get slice of data from the CSV file
         df = xreader.read_gdaxcsvdata(time_past, time_now, backtest_file_path)   
-        
+        ## TODO TODO TODO: Solve Gaps in data. sometimes there is gaps in data points 
+        ## ex.2017-12-05 05:20:00 ->  2017-12-05 05:40:00, missing 2017-12-05 05:30:00
+        ## The strategy should always tick with non missing data-points
+
         # will be empty when timestamp goes out of bounds
         if df.empty:
             print("End of Data - Closing Last position if any")
             # sell all in the end
             if mopool.get_quantity() != 0.0:
+                print(time_now)
                 mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
             mopool.print_account()
             return 
 
-        strategy.tick(df)
-
+        df = strategy.tick(df)
+       # print(df)
         buy_sig  = strategy.buy_signal()
         sell_sig = strategy.sell_signal()
 
         current_value = float(df.iloc[0]['close']) # Current Crypto Price at Session Close 
 
-        if sell_sig == stg.Signal.STONG:
-
+        if sell_sig == stg.Signal.SELL_STONG:
             if mopool.get_quantity() != 0.0:
+                print(time_now)
                 mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
-        elif buy_sig == stg.Signal.STONG:
+        elif buy_sig == stg.Signal.BUY_STONG:
             if mopool.get_account() > 0.0:
+                print(time_now)
                 mopool.buy_order(mopool.get_account(), current_value, True)
         
         
         start = start + timedelta(seconds=granularity) # advance time
-        #time.sleep(5)
+        #time.sleep(1)
     
     # sell all in the end
     if mopool.get_quantity() != 0.0:
+        print(time_now)
         mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
     mopool.print_account()
