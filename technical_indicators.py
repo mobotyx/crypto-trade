@@ -52,18 +52,60 @@ def MA(df, n, price='close', col_name = ""):
     else:
         name = col_name
     result = pd.Series(pd.rolling_mean(df[price], n), name=name)
-     
-
     return out(SETTINGS, df, result)
 
 
-def EMA(df, n, price='close'):
+def EMA(df, n, price='close', col_name = ""):
     """
     Exponential Moving Average
     """
-    result=pd.Series(pd.ewma(df[price], span=n, min_periods=n - 1), name='EMA_' + str(n))
+    if col_name == "":
+        name='EMA_{n}'.format(n=n)
+    else:
+        name = col_name
+    result=pd.Series(pd.ewma(df[price], span=n, min_periods=n - 1), name=name)
     return out(SETTINGS, df, result)
 
+def RSI(df, n, col_name = ""):
+    """
+    Relative Strength Index
+    """
+
+    if col_name == "":
+        name= 'RSI_' + str(n)
+    else:
+        name = col_name
+
+    i = 0
+    UpI = [0]
+    DoI = [0]
+
+   #print(df.index)
+
+    while i + 1 <= len(df) - 1:  # df.index[-1]
+        #UpMove = df.get_value(i + 1, 'high') - df.get_value(i, 'high')
+        #DoMove = df.get_value(i, 'low') - df.get_value(i + 1, 'low')
+        UpMove = df.iloc[i+1]['high'] - df.iloc[i]['high'] 
+        DoMove = df.iloc[i]['low'] - df.iloc[i+1]['low']
+        if UpMove > DoMove and UpMove > 0:
+            UpD = UpMove
+        else:
+            UpD = 0
+        UpI.append(UpD)
+        if DoMove > UpMove and DoMove > 0:
+            DoD = DoMove
+        else:
+            DoD = 0
+        DoI.append(DoD)
+        i = i + 1
+
+    UpI = pd.Series(UpI, index=df.index)
+    DoI = pd.Series(DoI, index=df.index)
+    PosDI = pd.Series(pd.ewma(UpI, span=n, min_periods=n - 1))
+    NegDI = pd.Series(pd.ewma(DoI, span=n, min_periods=n - 1))
+    result = pd.Series(PosDI / (PosDI + NegDI), name=name)
+    
+    return out(SETTINGS, df, result)
 
 def MOM(df, n, price='close'):
     """
@@ -267,35 +309,6 @@ def KST(df, r1, r2, r3, r4, n1, n2, n3, n4):
     N = df['close'].shift(r4 - 1)
     ROC4 = M / N
     result = pd.Series(pd.rolling_sum(ROC1, n1) + pd.rolling_sum(ROC2, n2) * 2 + pd.rolling_sum(ROC3, n3) * 3 + pd.rolling_sum(ROC4, n4) * 4, name='KST_' + str(r1) + '_' + str(r2) + '_' + str(r3) + '_' + str(r4) + '_' + str(n1) + '_' + str(n2) + '_' + str(n3) + '_' + str(n4))
-    return out(SETTINGS, df, result)
-
-
-def RSI(df, n):
-    """
-    Relative Strength Index
-    """
-    i = 0
-    UpI = [0]
-    DoI = [0]
-    while i + 1 <= len(df) - 1:  # df.index[-1]
-        UpMove = df.get_value(i + 1, 'high') - df.get_value(i, 'high')
-        DoMove = df.get_value(i, 'low') - df.get_value(i + 1, 'low')
-        if UpMove > DoMove and UpMove > 0:
-            UpD = UpMove
-        else:
-            UpD = 0
-        UpI.append(UpD)
-        if DoMove > UpMove and DoMove > 0:
-            DoD = DoMove
-        else:
-            DoD = 0
-        DoI.append(DoD)
-        i = i + 1
-    UpI = pd.Series(UpI)
-    DoI = pd.Series(DoI)
-    PosDI = pd.Series(pd.ewma(UpI, span=n, min_periods=n - 1))
-    NegDI = pd.Series(pd.ewma(DoI, span=n, min_periods=n - 1))
-    result = pd.Series(PosDI / (PosDI + NegDI), name='RSI_' + str(n))
     return out(SETTINGS, df, result)
 
 

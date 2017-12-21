@@ -17,7 +17,7 @@ investment = 1000                       # Initial Allocated budget
 currency = 'LTC-EUR'                    # currency
 granularity = 600                       # We gather points spaced 10 minutes each
 backtest_file_path = "./market-data/LTC-EUR-600-history.csv" # Note: this file must contain price points with the same spacing as granularity
-memory = 4                             # 6 times granularity - This is the time-horizon we look into the past
+memory = 4                              # 6 times granularity - This is the time-horizon we look into the past
 ### BEST RUN for MA crossover algorithm is a memory of 4 x 10 minutes.
 ### TODO: check to fill gaps in data an rerun
 
@@ -82,7 +82,7 @@ def run_backtest(xreader, strategy):
     
     nb_winning = 0  # number of winning trades 
     nb_losing = 0   # number of losing trades
-    prev_buy_value = 0.0
+    prev_account  = investment
     
     while(start < end):
         # emulate current time as old time by X days from now
@@ -96,14 +96,18 @@ def run_backtest(xreader, strategy):
         
         # get slice of data from the CSV file
         df = xreader.read_gdaxcsvdata(time_past, time_now, backtest_file_path)   
-        ## TODO TODO TODO: Solve Gaps in data. sometimes there is gaps in data points 
-        ## ex.2017-12-05 05:20:00 ->  2017-12-05 05:40:00, missing 2017-12-05 05:30:00
-        ## The strategy should always tick with non missing data-points
-
-        # will be empty when timestamp goes out of bounds
+        
+        # Sometimes we have empty chunks for timeperiods. just continue
+        # Note : means the exchange from where we get data is closed during that time
         if df.empty:
-            break
-
+            start = start + timedelta(seconds=granularity) # advance time
+            continue
+        
+        # Continue if we don't get the number of points we request
+        if len(df.index) != memory:
+            start = start + timedelta(seconds=granularity) # advance time
+            continue
+  
         df = strategy.tick(df)
        # print(df)
         buy_sig  = strategy.buy_signal()
@@ -122,12 +126,17 @@ def run_backtest(xreader, strategy):
                 
                 mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
+                print("Gain: " + str(100*(mopool.get_account() - prev_account) / prev_account))
+                print("-------------------")
+                prev_account = mopool.get_account()
+                
+
         elif buy_sig == stg.Signal.BUY_STONG:
             if mopool.get_account() > 0.0:
                 print(time_now)
                 prev_buy_value = float(df.iloc[0]['close'])
                 mopool.buy_order(mopool.get_account(), current_value, True)
-        
+                print("-------------------")
         
         start = start + timedelta(seconds=granularity) # advance time
         #time.sleep(1)

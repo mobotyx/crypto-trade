@@ -44,7 +44,7 @@ class MoneyPool:
         if print_order:
             print("Account After: " + str(self.__account))
             print("Updated Quantity: " + str(self.__quantity))
-            print("-------------------")
+            
 
         return OrderResult.PLACED
 
@@ -66,7 +66,7 @@ class MoneyPool:
         if print_order:
             print("Account After: " + str(self.__account))
             print("Updated Quantity: " + str(self.__quantity))
-            print("-------------------")
+            
 
         return OrderResult.PLACED
 
