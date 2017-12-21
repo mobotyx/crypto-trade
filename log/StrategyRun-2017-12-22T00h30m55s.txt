@@ -1,0 +1,4170 @@
+STRATEGY RUN - CROSSING MA
+GRANULARITY(S): 600
+MEMORY(S): 4
+INITIAL INVESTMENT(EUR): 1000
+TRADED CURRENCY: LTC-EUR
+BACKTEST CSV FILE: ./market-data/LTC-EUR-600-history.csv
+START TIME: 2017-12-05T00:00:00
+END TIME: 2017-12-19T23:50:00
+----------------
+Time Now: 2017-12-05T01:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.02
+Account Before: 1000
+Account After: 0
+Updated Quantity: 11.332651670074984
+-------------------
+2017-12-05T07:00:00.000000Z
+SELL ORDER
+Crypto Price @: 87.39
+Account Before: 0
+Account After: 987.8845283742334
+Updated Quantity: 0.0
+Gain: -1.2115471625766645
+-------------------
+Time Now: 2017-12-05T07:20:00.000000Z
+BUY ORDER
+Crypto Price @: 87.39
+Account Before: 987.8845283742334
+Account After: 0.0
+Updated Quantity: 11.276059240797549
+-------------------
+2017-12-05T08:10:00.000000Z
+SELL ORDER
+Crypto Price @: 87.78
+Account Before: 0.0
+Account After: 987.3379489568158
+Updated Quantity: 0.0
+Gain: -0.055328269824921304
+-------------------
+Time Now: 2017-12-05T09:40:00.000000Z
+BUY ORDER
+Crypto Price @: 87.4
+Account Before: 987.3379489568158
+Account After: 0.0
+Updated Quantity: 11.26853093918105
+-------------------
+2017-12-05T10:00:00.000000Z
+SELL ORDER
+Crypto Price @: 87.42
+Account Before: 0.0
+Account After: 982.6322372664495
+Updated Quantity: 0.0
+Gain: -0.47660597826086004
+-------------------
+Time Now: 2017-12-05T11:10:00.000000Z
+BUY ORDER
+Crypto Price @: 87.29
+Account Before: 982.6322372664495
+Account After: 0.0
+Updated Quantity: 11.228957001641463
+-------------------
+2017-12-05T11:50:00.000000Z
+SELL ORDER
+Crypto Price @: 87.29
+Account Before: 0.0
+Account After: 977.7252175316002
+Updated Quantity: 0.0
+Gain: -0.4993749999999981
+-------------------
+Time Now: 2017-12-05T13:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.68
+Account Before: 977.7252175316002
+Account After: 0.0
+Updated Quantity: 11.251510204058272
+-------------------
+2017-12-05T14:20:00.000000Z
+SELL ORDER
+Crypto Price @: 86.7
+Account Before: 0.0
+Account After: 973.0671698551226
+Updated Quantity: 0.0
+Gain: -0.4764168493308765
+-------------------
+Time Now: 2017-12-05T14:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.4
+Account Before: 973.0671698551226
+Account After: 0.0
+Updated Quantity: 11.234195624195427
+-------------------
+2017-12-05T15:10:00.000000Z
+SELL ORDER
+Crypto Price @: 86.59
+Account Before: 0.0
+Account After: 970.3370766013344
+Updated Quantity: 0.0
+Gain: -0.2805657552083204
+-------------------
+Time Now: 2017-12-05T15:30:00.000000Z
+BUY ORDER
+Crypto Price @: 86.84
+Account Before: 970.3370766013344
+Account After: 0.0
+Updated Quantity: 11.145914715682071
+-------------------
+2017-12-05T15:50:00.000000Z
+SELL ORDER
+Crypto Price @: 86.49
+Account Before: 0.0
+Account After: 961.600138349944
+Updated Quantity: 0.0
+Gain: -0.9004023923307184
+-------------------
+Time Now: 2017-12-05T16:20:00.000000Z
+BUY ORDER
+Crypto Price @: 86.5
+Account Before: 961.600138349944
+Account After: 0.0
+Updated Quantity: 11.088972693688662
+-------------------
+2017-12-05T16:40:00.000000Z
+SELL ORDER
+Crypto Price @: 86.51
+Account Before: 0.0
+Account After: 956.9087601616787
+Updated Quantity: 0.0
+Gain: -0.4878720375722322
+-------------------
+Time Now: 2017-12-05T17:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.51
+Account Before: 956.9087601616787
+Account After: 0.0
+Updated Quantity: 11.033597136299555
+-------------------
+2017-12-05T19:30:00.000000Z
+SELL ORDER
+Crypto Price @: 86.51
+Account Before: 0.0
+Account After: 952.1301970406215
+Updated Quantity: 0.0
+Gain: -0.4993749999999842
+-------------------
+Time Now: 2017-12-05T20:10:00.000000Z
+BUY ORDER
+Crypto Price @: 86.41
+Account Before: 952.1301970406215
+Account After: 0.0
+Updated Quantity: 10.991203235135055
+-------------------
+2017-12-05T20:30:00.000000Z
+SELL ORDER
+Crypto Price @: 86.6
+Account Before: 0.0
+Account After: 949.458604662289
+Updated Quantity: 0.0
+Gain: -0.28059107742158584
+-------------------
+Time Now: 2017-12-05T20:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.34
+Account Before: 949.458604662289
+Account After: 0.0
+Updated Quantity: 10.969248994100454
+-------------------
+2017-12-05T22:10:00.000000Z
+SELL ORDER
+Crypto Price @: 87.33
+Account Before: 0.0
+Account After: 955.5496533681558
+Updated Quantity: 0.0
+Gain: 0.6415286223071631
+-------------------
+Time Now: 2017-12-05T22:30:00.000000Z
+BUY ORDER
+Crypto Price @: 87.32
+Account Before: 955.5496533681558
+Account After: 0.0
+Updated Quantity: 10.91572124638955
+-------------------
+2017-12-05T22:40:00.000000Z
+SELL ORDER
+Crypto Price @: 87.32
+Account Before: 0.0
+Account After: 950.7778772866486
+Updated Quantity: 0.0
+Gain: -0.49937499999999097
+-------------------
+Time Now: 2017-12-05T23:20:00.000000Z
+BUY ORDER
+Crypto Price @: 86.9
+Account Before: 950.7778772866486
+Account After: 0.0
+Updated Quantity: 10.913704632835811
+-------------------
+2017-12-05T23:30:00.000000Z
+SELL ORDER
+Crypto Price @: 86.99
+Account Before: 0.0
+Account After: 947.0097080953612
+Updated Quantity: 0.0
+Gain: -0.3963248705408519
+-------------------
+Time Now: 2017-12-06T00:10:00.000000Z
+BUY ORDER
+Crypto Price @: 86.86
+Account Before: 947.0097080953612
+Account After: 0.0
+Updated Quantity: 10.875456871115851
+-------------------
+2017-12-06T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 86.86
+Account Before: 0.0
+Account After: 942.2805783655601
+Updated Quantity: 0.0
+Gain: -0.49937499999999
+-------------------
+Time Now: 2017-12-06T00:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.91
+Account Before: 942.2805783655601
+Account After: 0.0
+Updated Quantity: 10.81492206788225
+-------------------
+2017-12-06T01:00:00.000000Z
+SELL ORDER
+Crypto Price @: 86.57
+Account Before: 0.0
+Account After: 933.9071839080249
+Updated Quantity: 0.0
+Gain: -0.888630695547115
+-------------------
+Time Now: 2017-12-06T01:30:00.000000Z
+BUY ORDER
+Crypto Price @: 86.24
+Account Before: 933.9071839080249
+Account After: 0.0
+Updated Quantity: 10.802092021663437
+-------------------
+2017-12-06T02:00:00.000000Z
+SELL ORDER
+Crypto Price @: 86.48
+Account Before: 0.0
+Account After: 931.8295057383706
+Updated Quantity: 0.0
+Gain: -0.2224715909090715
+-------------------
+Time Now: 2017-12-06T02:50:00.000000Z
+BUY ORDER
+Crypto Price @: 86.35
+Account Before: 931.8295057383706
+Account After: 0.0
+Updated Quantity: 10.764330422397506
+-------------------
+2017-12-06T03:10:00.000000Z
+SELL ORDER
+Crypto Price @: 86.44
+Account Before: 0.0
+Account After: 928.1425499077603
+Updated Quantity: 0.0
+Gain: -0.39566850028952016
+-------------------
+Time Now: 2017-12-06T03:30:00.000000Z
+BUY ORDER
+Crypto Price @: 86.38
+Account Before: 928.1425499077603
+Account After: 0.0
+Updated Quantity: 10.718015669518303
+-------------------
+2017-12-06T04:00:00.000000Z
+SELL ORDER
+Crypto Price @: 86.76
+Account Before: 0.0
+Account After: 927.5703018886896
+Updated Quantity: 0.0
+Gain: -0.061655186385707154
+-------------------
+Time Now: 2017-12-06T04:10:00.000000Z
+BUY ORDER
+Crypto Price @: 86.63
+Account Before: 927.5703018886896
+Account After: 0.0
+Updated Quantity: 10.680496088352395
+-------------------
+2017-12-06T07:40:00.000000Z
+SELL ORDER
+Crypto Price @: 88.49
+Account Before: 0.0
+Account After: 942.7543061111577
+Updated Quantity: 0.0
+Gain: 1.636965326676679
+-------------------
+Time Now: 2017-12-06T09:00:00.000000Z
+BUY ORDER
+Crypto Price @: 88.5
+Account Before: 942.7543061111577
+Account After: 0.0
+Updated Quantity: 10.625959551930846
+-------------------
+2017-12-06T09:10:00.000000Z
+SELL ORDER
+Crypto Price @: 88.45
+Account Before: 0.0
+Account After: 937.5164570623626
+Updated Quantity: 0.0
+Gain: -0.5555900423728719
+-------------------
+Time Now: 2017-12-06T09:30:00.000000Z
+BUY ORDER
+Crypto Price @: 88.59
+Account Before: 937.5164570623626
+Account After: 0.0
+Updated Quantity: 10.556187672645972
+-------------------
+2017-12-06T10:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.75
+Account Before: 0.0
+Account After: 934.5195018074618
+Updated Quantity: 0.0
+Gain: -0.3196696156451043
+-------------------
+Time Now: 2017-12-06T10:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.59
+Account Before: 934.5195018074618
+Account After: 0.0
+Updated Quantity: 10.52244274808605
+-------------------
+2017-12-06T10:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.89
+Account Before: 0.0
+Account After: 933.0015860376756
+Updated Quantity: 0.0
+Gain: -0.16242740433456984
+-------------------
+Time Now: 2017-12-06T11:50:00.000000Z
+BUY ORDER
+Crypto Price @: 88.0
+Account Before: 933.0015860376756
+Account After: 0.0
+Updated Quantity: 10.575785023552061
+-------------------
+2017-12-06T12:10:00.000000Z
+SELL ORDER
+Crypto Price @: 88.2
+Account Before: 0.0
+Account After: 930.4522784795987
+Updated Quantity: 0.0
+Gain: -0.27323721590907546
+-------------------
+Time Now: 2017-12-06T12:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.2
+Account Before: 930.4522784795987
+Account After: 0.0
+Updated Quantity: 10.5229721970907
+-------------------
+2017-12-06T12:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.74
+Account Before: 0.0
+Account After: 931.4740313879041
+Updated Quantity: 0.0
+Gain: 0.10981250000000072
+-------------------
+Time Now: 2017-12-06T13:10:00.000000Z
+BUY ORDER
+Crypto Price @: 88.54
+Account Before: 931.4740313879041
+Account After: 0.0
+Updated Quantity: 10.494074387953855
+-------------------
+2017-12-06T13:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.72
+Account Before: 0.0
+Account After: 928.7066940000179
+Updated Quantity: 0.0
+Gain: -0.2970922746781068
+-------------------
+Time Now: 2017-12-06T14:30:00.000000Z
+BUY ORDER
+Crypto Price @: 88.55
+Account Before: 928.7066940000179
+Account After: 0.0
+Updated Quantity: 10.461715722925105
+-------------------
+2017-12-06T15:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.9
+Account Before: 0.0
+Account After: 927.7214114486218
+Updated Quantity: 0.0
+Gain: -0.10609189723317902
+-------------------
+Time Now: 2017-12-06T15:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.86
+Account Before: 927.7214114486218
+Account After: 0.0
+Updated Quantity: 10.414158315552557
+-------------------
+2017-12-06T15:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.99
+Account Before: 0.0
+Account After: 924.4390586297694
+Updated Quantity: 0.0
+Gain: -0.353808026671177
+-------------------
+Time Now: 2017-12-06T16:30:00.000000Z
+BUY ORDER
+Crypto Price @: 88.54
+Account Before: 924.4390586297694
+Account After: 0.0
+Updated Quantity: 10.414817720614355
+-------------------
+2017-12-06T17:40:00.000000Z
+SELL ORDER
+Crypto Price @: 88.97
+Account Before: 0.0
+Account After: 924.2898167715516
+Updated Quantity: 0.0
+Gain: -0.016144045064367656
+-------------------
+Time Now: 2017-12-06T18:30:00.000000Z
+BUY ORDER
+Crypto Price @: 88.58
+Account Before: 924.2898167715516
+Account After: 0.0
+Updated Quantity: 10.40843409606709
+-------------------
+2017-12-06T19:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.88
+Account Before: 0.0
+Account After: 922.7888684022968
+Updated Quantity: 0.0
+Gain: -0.162389365545268
+-------------------
+Time Now: 2017-12-06T20:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.42
+Account Before: 922.7888684022968
+Account After: 0.0
+Updated Quantity: 10.410335854233104
+-------------------
+2017-12-06T21:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.38
+Account Before: 0.0
+Account After: 917.7653190901289
+Updated Quantity: 0.0
+Gain: -0.5443877233657592
+-------------------
+Time Now: 2017-12-06T21:10:00.000000Z
+BUY ORDER
+Crypto Price @: 88.52
+Account Before: 917.7653190901289
+Account After: 0.0
+Updated Quantity: 10.341966852602843
+-------------------
+2017-12-06T21:40:00.000000Z
+SELL ORDER
+Crypto Price @: 88.49
+Account Before: 0.0
+Account After: 912.8727451698585
+Updated Quantity: 0.0
+Gain: -0.5330964047672727
+-------------------
+Time Now: 2017-12-06T23:10:00.000000Z
+BUY ORDER
+Crypto Price @: 86.24
+Account Before: 912.8727451698585
+Account After: 0.0
+Updated Quantity: 10.558795956713055
+-------------------
+2017-12-07T00:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.85
+Account Before: 0.0
+Account After: 935.8036482020701
+Updated Quantity: 0.0
+Gain: 2.5119495738636464
+-------------------
+Time Now: 2017-12-07T00:50:00.000000Z
+BUY ORDER
+Crypto Price @: 87.49
+Account Before: 935.8036482020701
+Account After: 0.0
+Updated Quantity: 10.669380947326152
+-------------------
+2017-12-07T01:10:00.000000Z
+SELL ORDER
+Crypto Price @: 87.0
+Account Before: 0.0
+Account After: 925.9155520613319
+Updated Quantity: 0.0
+Gain: -1.0566421876785659
+-------------------
+Time Now: 2017-12-07T01:20:00.000000Z
+BUY ORDER
+Crypto Price @: 87.15
+Account Before: 925.9155520613319
+Account After: 0.0
+Updated Quantity: 10.597828607930907
+-------------------
+2017-12-07T01:50:00.000000Z
+SELL ORDER
+Crypto Price @: 87.84
+Account Before: 0.0
+Account After: 928.5859817583494
+Updated Quantity: 0.0
+Gain: 0.28840963855422297
+-------------------
+Time Now: 2017-12-07T02:40:00.000000Z
+BUY ORDER
+Crypto Price @: 86.55
+Account Before: 928.5859817583494
+Account After: 0.0
+Updated Quantity: 10.70207413984926
+-------------------
+2017-12-07T03:10:00.000000Z
+SELL ORDER
+Crypto Price @: 86.7
+Account Before: 0.0
+Account After: 925.5501533551187
+Updated Quantity: 0.0
+Gain: -0.3269302426342983
+-------------------
+Time Now: 2017-12-07T03:30:00.000000Z
+BUY ORDER
+Crypto Price @: 86.86
+Account Before: 925.5501533551187
+Account After: 0.0
+Updated Quantity: 10.629015403773094
+-------------------
+2017-12-07T04:10:00.000000Z
+SELL ORDER
+Crypto Price @: 87.83
+Account Before: 0.0
+Account After: 931.2125568561074
+Updated Quantity: 0.0
+Gain: 0.611787862652554
+-------------------
+Time Now: 2017-12-07T04:30:00.000000Z
+BUY ORDER
+Crypto Price @: 88.0
+Account Before: 931.2125568561074
+Account After: 0.0
+Updated Quantity: 10.555505971181445
+-------------------
+2017-12-07T04:40:00.000000Z
+SELL ORDER
+Crypto Price @: 88.0
+Account Before: 0.0
+Account After: 926.5623141503073
+Updated Quantity: 0.0
+Gain: -0.49937499999999185
+-------------------
+Time Now: 2017-12-07T05:20:00.000000Z
+BUY ORDER
+Crypto Price @: 87.82
+Account Before: 926.5623141503073
+Account After: 0.0
+Updated Quantity: 10.524321434353583
+-------------------
+2017-12-07T06:00:00.000000Z
+SELL ORDER
+Crypto Price @: 88.31
+Account Before: 0.0
+Account After: 927.0793188030956
+Updated Quantity: 0.0
+Gain: 0.055798152470984755
+-------------------
+Time Now: 2017-12-07T06:40:00.000000Z
+BUY ORDER
+Crypto Price @: 88.07
+Account Before: 927.0793188030956
+Account After: 0.0
+Updated Quantity: 10.500302265312682
+-------------------
+2017-12-07T06:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.07
+Account Before: 0.0
+Account After: 922.4497164548226
+Updated Quantity: 0.0
+Gain: -0.4993750000000056
+-------------------
+Time Now: 2017-12-07T07:00:00.000000Z
+BUY ORDER
+Crypto Price @: 88.24
+Account Before: 922.4497164548226
+Account After: 0.0
+Updated Quantity: 10.427737898500517
+-------------------
+2017-12-07T07:50:00.000000Z
+SELL ORDER
+Crypto Price @: 88.65
+Account Before: 0.0
+Account After: 922.1079172903158
+Updated Quantity: 0.0
+Gain: -0.03705341965093052
+-------------------
+Time Now: 2017-12-07T08:10:00.000000Z
+BUY ORDER
+Crypto Price @: 88.83
+Account Before: 922.1079172903158
+Account After: 0.0
+Updated Quantity: 10.354639733165484
+-------------------
+2017-12-07T09:00:00.000000Z
+SELL ORDER
+Crypto Price @: 91.52
+Account Before: 0.0
+Account After: 945.2874868083569
+Updated Quantity: 0.0
+Gain: 2.5137588652482323
+-------------------
+Time Now: 2017-12-07T09:50:00.000000Z
+BUY ORDER
+Crypto Price @: 90.0
+Account Before: 945.2874868083569
+Account After: 0.0
+Updated Quantity: 10.476936312125957
+-------------------
+2017-12-07T10:30:00.000000Z
+SELL ORDER
+Crypto Price @: 91.69
+Account Before: 0.0
+Account After: 958.228714732682
+Updated Quantity: 0.0
+Gain: 1.369025625000017
+-------------------
+Time Now: 2017-12-07T10:50:00.000000Z
+BUY ORDER
+Crypto Price @: 92.11
+Account Before: 958.228714732682
+Account After: 0.0
+Updated Quantity: 10.377083301985131
+-------------------
+2017-12-07T11:10:00.000000Z
+SELL ORDER
+Crypto Price @: 91.59
+Account Before: 0.0
+Account After: 948.0609669797461
+Updated Quantity: 0.0
+Gain: -1.061098211377682
+-------------------
+Time Now: 2017-12-07T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 91.62
+Account Before: 948.0609669797461
+Account After: 0.0
+Updated Quantity: 10.321881844163903
+-------------------
+2017-12-07T11:40:00.000000Z
+SELL ORDER
+Crypto Price @: 91.59
+Account Before: 0.0
+Account After: 943.0177052117044
+Updated Quantity: 0.0
+Gain: -0.5319554273084469
+-------------------
+Time Now: 2017-12-07T12:20:00.000000Z
+BUY ORDER
+Crypto Price @: 89.1
+Account Before: 943.0177052117044
+Account After: 0.0
+Updated Quantity: 10.557353097067063
+-------------------
+2017-12-07T12:40:00.000000Z
+SELL ORDER
+Crypto Price @: 88.6
+Account Before: 0.0
+Account After: 933.0430306891415
+Updated Quantity: 0.0
+Gain: -1.0577398989898796
+-------------------
+Time Now: 2017-12-07T12:50:00.000000Z
+BUY ORDER
+Crypto Price @: 88.59
+Account Before: 933.0430306891415
+Account After: 0.0
+Updated Quantity: 10.505818073286134
+-------------------
+2017-12-07T13:20:00.000000Z
+SELL ORDER
+Crypto Price @: 88.62
+Account Before: 0.0
+Account After: 928.6980336604807
+Updated Quantity: 0.0
+Gain: -0.4656802404334469
+-------------------
+Time Now: 2017-12-07T14:00:00.000000Z
+BUY ORDER
+Crypto Price @: 87.39
+Account Before: 928.6980336604807
+Account After: 0.0
+Updated Quantity: 10.600483906354611
+-------------------
+2017-12-07T14:30:00.000000Z
+SELL ORDER
+Crypto Price @: 87.7
+Account Before: 0.0
+Account After: 927.3382824908313
+Updated Quantity: 0.0
+Gain: -0.14641477857878088
+-------------------
+Time Now: 2017-12-07T15:50:00.000000Z
+BUY ORDER
+Crypto Price @: 83.03
+Account Before: 927.3382824908313
+Account After: 0.0
+Updated Quantity: 11.14079172328802
+-------------------
+2017-12-07T16:10:00.000000Z
+SELL ORDER
+Crypto Price @: 82.68
+Account Before: 0.0
+Account After: 918.8178580322499
+Updated Quantity: 0.0
+Gain: -0.9188043478260715
+-------------------
+Time Now: 2017-12-07T16:50:00.000000Z
+BUY ORDER
+Crypto Price @: 81.1
+Account Before: 918.8178580322499
+Account After: 0.0
+Updated Quantity: 11.301119770495307
+-------------------
+2017-12-07T18:20:00.000000Z
+SELL ORDER
+Crypto Price @: 82.55
+Account Before: 0.0
+Account After: 930.5751684617516
+Updated Quantity: 0.0
+Gain: 1.2796127466091325
+-------------------
+Time Now: 2017-12-07T19:10:00.000000Z
+BUY ORDER
+Crypto Price @: 81.12
+Account Before: 930.5751684617516
+Account After: 0.0
+Updated Quantity: 11.442908413961996
+-------------------
+2017-12-07T21:20:00.000000Z
+SELL ORDER
+Crypto Price @: 84.6
+Account Before: 0.0
+Account After: 965.6498766916319
+Updated Quantity: 0.0
+Gain: 3.7691429363905256
+-------------------
+Time Now: 2017-12-07T23:20:00.000000Z
+BUY ORDER
+Crypto Price @: 82.51
+Account Before: 965.6498766916319
+Account After: 0.0
+Updated Quantity: 11.674169821838598
+-------------------
+2017-12-07T23:40:00.000000Z
+SELL ORDER
+Crypto Price @: 82.64
+Account Before: 0.0
+Account After: 962.34151059155
+Updated Quantity: 0.0
+Gain: -0.3426051387710576
+-------------------
+Time Now: 2017-12-08T00:30:00.000000Z
+BUY ORDER
+Crypto Price @: 81.81
+Account Before: 962.34151059155
+Account After: 0.0
+Updated Quantity: 11.733720288657514
+-------------------
+2017-12-08T00:50:00.000000Z
+SELL ORDER
+Crypto Price @: 82.34
+Account Before: 0.0
+Account After: 963.7391422466396
+Updated Quantity: 0.0
+Gain: 0.1452323982398429
+-------------------
+Time Now: 2017-12-08T01:10:00.000000Z
+BUY ORDER
+Crypto Price @: 81.97
+Account Before: 963.7391422466396
+Account After: 0.0
+Updated Quantity: 11.727824745529134
+-------------------
+2017-12-08T01:40:00.000000Z
+SELL ORDER
+Crypto Price @: 82.15
+Account Before: 0.0
+Account After: 961.0322008381054
+Updated Quantity: 0.0
+Gain: -0.2808790563620679
+-------------------
+Time Now: 2017-12-08T02:00:00.000000Z
+BUY ORDER
+Crypto Price @: 82.5
+Account Before: 961.0322008381054
+Account After: 0.0
+Updated Quantity: 11.61975297376982
+-------------------
+2017-12-08T03:10:00.000000Z
+SELL ORDER
+Crypto Price @: 83.16
+Account Before: 0.0
+Account After: 963.8829106554515
+Updated Quantity: 0.0
+Gain: 0.29663000000000445
+-------------------
+Time Now: 2017-12-08T03:30:00.000000Z
+BUY ORDER
+Crypto Price @: 83.13
+Account Before: 963.8829106554515
+Account After: 0.0
+Updated Quantity: 11.565899234678371
+-------------------
+2017-12-08T04:00:00.000000Z
+SELL ORDER
+Crypto Price @: 83.12
+Account Before: 0.0
+Account After: 958.9541505255
+Updated Quantity: 0.0
+Gain: -0.511344280043293
+-------------------
+Time Now: 2017-12-08T04:20:00.000000Z
+BUY ORDER
+Crypto Price @: 83.22
+Account Before: 958.9541505255
+Account After: 0.0
+Updated Quantity: 11.494313448079625
+-------------------
+2017-12-08T05:40:00.000000Z
+SELL ORDER
+Crypto Price @: 85.48
+Account Before: 0.0
+Account After: 980.0775787579918
+Updated Quantity: 0.0
+Gain: 2.202756849315084
+-------------------
+Time Now: 2017-12-08T06:30:00.000000Z
+BUY ORDER
+Crypto Price @: 84.39
+Account Before: 980.0775787579918
+Account After: 0.0
+Updated Quantity: 11.58463544034953
+-------------------
+2017-12-08T06:40:00.000000Z
+SELL ORDER
+Crypto Price @: 84.12
+Account Before: 0.0
+Account After: 972.063284409097
+Updated Quantity: 0.0
+Gain: -0.8177204052612744
+-------------------
+Time Now: 2017-12-08T07:20:00.000000Z
+BUY ORDER
+Crypto Price @: 83.85
+Account Before: 972.063284409097
+Account After: 0.0
+Updated Quantity: 11.563901326154733
+-------------------
+2017-12-08T08:30:00.000000Z
+SELL ORDER
+Crypto Price @: 85.35
+Account Before: 0.0
+Account After: 984.5115307418382
+Updated Quantity: 0.0
+Gain: 1.2806004025044813
+-------------------
+Time Now: 2017-12-08T08:40:00.000000Z
+BUY ORDER
+Crypto Price @: 85.85
+Account Before: 984.5115307418382
+Account After: 0.0
+Updated Quantity: 11.439140965812273
+-------------------
+2017-12-08T10:10:00.000000Z
+SELL ORDER
+Crypto Price @: 88.68
+Account Before: 0.0
+Account After: 1011.886963296112
+Updated Quantity: 0.0
+Gain: 2.780610658124655
+-------------------
+Time Now: 2017-12-08T10:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.75
+Account Before: 1011.886963296112
+Account After: 0.0
+Updated Quantity: 11.373039390285879
+-------------------
+2017-12-08T11:40:00.000000Z
+SELL ORDER
+Crypto Price @: 90.99
+Account Before: 0.0
+Account After: 1032.2457719868066
+Updated Quantity: 0.0
+Gain: 2.0119647183098457
+-------------------
+Time Now: 2017-12-08T12:20:00.000000Z
+BUY ORDER
+Crypto Price @: 88.97
+Account Before: 1032.2457719868066
+Account After: 0.0
+Updated Quantity: 11.573172502605818
+-------------------
+2017-12-08T12:40:00.000000Z
+SELL ORDER
+Crypto Price @: 89.0
+Account Before: 0.0
+Account After: 1027.4373218500882
+Updated Quantity: 0.0
+Gain: -0.4658241542092631
+-------------------
+Time Now: 2017-12-08T12:50:00.000000Z
+BUY ORDER
+Crypto Price @: 89.55
+Account Before: 1027.4373218500882
+Account After: 0.0
+Updated Quantity: 11.444653585097297
+-------------------
+2017-12-08T13:50:00.000000Z
+SELL ORDER
+Crypto Price @: 90.61
+Account Before: 0.0
+Account After: 1034.407561192302
+Updated Quantity: 0.0
+Gain: 0.6784101758793966
+-------------------
+Time Now: 2017-12-08T14:30:00.000000Z
+BUY ORDER
+Crypto Price @: 90.28
+Account Before: 1034.407561192302
+Account After: 0.0
+Updated Quantity: 11.429126520705818
+-------------------
+2017-12-08T14:50:00.000000Z
+SELL ORDER
+Crypto Price @: 90.3
+Account Before: 0.0
+Account After: 1029.4699995076862
+Updated Quantity: 0.0
+Gain: -0.4773323272042296
+-------------------
+Time Now: 2017-12-08T15:10:00.000000Z
+BUY ORDER
+Crypto Price @: 91.45
+Account Before: 1029.4699995076862
+Account After: 0.0
+Updated Quantity: 11.229046741486245
+-------------------
+2017-12-08T16:00:00.000000Z
+SELL ORDER
+Crypto Price @: 99.44
+Account Before: 0.0
+Account After: 1113.8248669534587
+Updated Quantity: 0.0
+Gain: 8.194009294696563
+-------------------
+Time Now: 2017-12-08T16:10:00.000000Z
+BUY ORDER
+Crypto Price @: 100.01
+Account Before: 1113.8248669534587
+Account After: 0.0
+Updated Quantity: 11.109292118648884
+-------------------
+2017-12-08T17:00:00.000000Z
+SELL ORDER
+Crypto Price @: 108.3
+Account Before: 0.0
+Account After: 1200.12849560855
+Updated Quantity: 0.0
+Gain: 7.748402034796519
+-------------------
+Time Now: 2017-12-08T17:20:00.000000Z
+BUY ORDER
+Crypto Price @: 109.0
+Account Before: 1200.12849560855
+Account After: 0.0
+Updated Quantity: 10.982827287793842
+-------------------
+2017-12-08T17:40:00.000000Z
+SELL ORDER
+Crypto Price @: 110.4
+Account Before: 0.0
+Account After: 1209.4728722410093
+Updated Quantity: 0.0
+Gain: 0.7786146788991087
+-------------------
+Time Now: 2017-12-08T18:20:00.000000Z
+BUY ORDER
+Crypto Price @: 104.6
+Account Before: 1209.4728722410093
+Account After: 0.0
+Updated Quantity: 11.533931071323202
+-------------------
+2017-12-08T18:40:00.000000Z
+SELL ORDER
+Crypto Price @: 106.86
+Account Before: 0.0
+Account After: 1229.4345845958935
+Updated Quantity: 0.0
+Gain: 1.6504472992352037
+-------------------
+Time Now: 2017-12-08T19:20:00.000000Z
+BUY ORDER
+Crypto Price @: 107.12
+Account Before: 1229.4345845958935
+Account After: 0.0
+Updated Quantity: 11.448478324630356
+-------------------
+2017-12-08T20:20:00.000000Z
+SELL ORDER
+Crypto Price @: 111.01
+Account Before: 0.0
+Account After: 1267.718339870173
+Updated Quantity: 0.0
+Gain: 3.1139318637976197
+-------------------
+Time Now: 2017-12-08T20:40:00.000000Z
+BUY ORDER
+Crypto Price @: 111.17
+Account Before: 1267.718339870173
+Account After: 0.0
+Updated Quantity: 11.374912692457476
+-------------------
+2017-12-08T21:20:00.000000Z
+SELL ORDER
+Crypto Price @: 111.95
+Account Before: 0.0
+Account After: 1270.237922230813
+Updated Quantity: 0.0
+Gain: 0.19874938157777586
+-------------------
+Time Now: 2017-12-08T22:10:00.000000Z
+BUY ORDER
+Crypto Price @: 108.5
+Account Before: 1270.237922230813
+Account After: 0.0
+Updated Quantity: 11.677993801154248
+-------------------
+2017-12-08T22:20:00.000000Z
+SELL ORDER
+Crypto Price @: 104.22
+Account Before: 0.0
+Account After: 1214.037812671405
+Updated Quantity: 0.0
+Gain: -4.424376612903231
+-------------------
+Time Now: 2017-12-08T22:40:00.000000Z
+BUY ORDER
+Crypto Price @: 106.05
+Account Before: 1214.037812671405
+Account After: 0.0
+Updated Quantity: 11.419167544929058
+-------------------
+2017-12-08T23:10:00.000000Z
+SELL ORDER
+Crypto Price @: 107.33
+Account Before: 0.0
+Account After: 1222.5552044657427
+Updated Quantity: 0.0
+Gain: 0.7015754950495184
+-------------------
+Time Now: 2017-12-08T23:30:00.000000Z
+BUY ORDER
+Crypto Price @: 106.88
+Account Before: 1222.5552044657427
+Account After: 0.0
+Updated Quantity: 11.409981441378916
+-------------------
+2017-12-08T23:50:00.000000Z
+SELL ORDER
+Crypto Price @: 107.16
+Account Before: 0.0
+Account After: 1219.636877230019
+Updated Quantity: 0.0
+Gain: -0.23870719498502482
+-------------------
+Time Now: 2017-12-09T00:10:00.000000Z
+BUY ORDER
+Crypto Price @: 107.51
+Account Before: 1219.636877230019
+Account After: 0.0
+Updated Quantity: 11.316043019597656
+-------------------
+2017-12-09T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 107.91
+Account Before: 0.0
+Account After: 1218.0614167391711
+Updated Quantity: 0.0
+Gain: -0.12917455352990437
+-------------------
+Time Now: 2017-12-09T00:40:00.000000Z
+BUY ORDER
+Crypto Price @: 108.9
+Account Before: 1218.0614167391711
+Account After: 0.0
+Updated Quantity: 11.157174134043371
+-------------------
+2017-12-09T03:00:00.000000Z
+SELL ORDER
+Crypto Price @: 121.58
+Account Before: 0.0
+Account After: 1353.0980081389507
+Updated Quantity: 0.0
+Gain: 11.086189049586778
+-------------------
+Time Now: 2017-12-09T03:20:00.000000Z
+BUY ORDER
+Crypto Price @: 122.34
+Account Before: 1353.0980081389507
+Account After: 0.0
+Updated Quantity: 11.032493568077516
+-------------------
+2017-12-09T05:40:00.000000Z
+SELL ORDER
+Crypto Price @: 150.99
+Account Before: 0.0
+Account After: 1661.6317133344144
+Updated Quantity: 0.0
+Gain: 22.802021977685158
+-------------------
+Time Now: 2017-12-09T06:40:00.000000Z
+BUY ORDER
+Crypto Price @: 140.1
+Account Before: 1661.6317133344144
+Account After: 0.0
+Updated Quantity: 11.830675475025542
+-------------------
+2017-12-09T07:00:00.000000Z
+SELL ORDER
+Crypto Price @: 139.5
+Account Before: 0.0
+Account After: 1646.253280694148
+Updated Quantity: 0.0
+Gain: -0.925501873661656
+-------------------
+Time Now: 2017-12-09T07:50:00.000000Z
+BUY ORDER
+Crypto Price @: 135.0
+Account Before: 1646.253280694148
+Account After: 0.0
+Updated Quantity: 12.163982574017872
+-------------------
+2017-12-09T09:00:00.000000Z
+SELL ORDER
+Crypto Price @: 144.78
+Account Before: 0.0
+Account After: 1756.698643573642
+Updated Quantity: 0.0
+Gain: 6.708892500000009
+-------------------
+Time Now: 2017-12-09T10:10:00.000000Z
+BUY ORDER
+Crypto Price @: 141.08
+Account Before: 1756.698643573642
+Account After: 0.0
+Updated Quantity: 12.42066130539203
+-------------------
+2017-12-09T10:40:00.000000Z
+SELL ORDER
+Crypto Price @: 141.51
+Account Before: 0.0
+Account After: 1753.2536618727113
+Updated Quantity: 0.0
+Gain: -0.1961054454919203
+-------------------
+Time Now: 2017-12-09T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 133.72
+Account Before: 1753.2536618727113
+Account After: 0.0
+Updated Quantity: 13.07860101494189
+-------------------
+2017-12-09T11:40:00.000000Z
+SELL ORDER
+Crypto Price @: 131.03
+Account Before: 0.0
+Account After: 1709.4048682603664
+Updated Quantity: 0.0
+Gain: -2.5009954101854555
+-------------------
+Time Now: 2017-12-09T12:30:00.000000Z
+BUY ORDER
+Crypto Price @: 130.14
+Account Before: 1709.4048682603664
+Account After: 0.0
+Updated Quantity: 13.102284893881325
+-------------------
+2017-12-09T13:20:00.000000Z
+SELL ORDER
+Crypto Price @: 136.0
+Account Before: 0.0
+Account After: 1777.4559687039407
+Updated Quantity: 0.0
+Gain: 3.9809820193637826
+-------------------
+Time Now: 2017-12-09T13:30:00.000000Z
+BUY ORDER
+Crypto Price @: 135.32
+Account Before: 1777.4559687039407
+Account After: 0.0
+Updated Quantity: 13.102367194665836
+-------------------
+2017-12-09T14:20:00.000000Z
+SELL ORDER
+Crypto Price @: 141.98
+Account Before: 0.0
+Account After: 1855.6234090629089
+Updated Quantity: 0.0
+Gain: 4.397714583949169
+-------------------
+Time Now: 2017-12-09T15:00:00.000000Z
+BUY ORDER
+Crypto Price @: 136.51
+Account Before: 1855.6234090629089
+Account After: 0.0
+Updated Quantity: 13.559331554759737
+-------------------
+2017-12-09T15:30:00.000000Z
+SELL ORDER
+Crypto Price @: 139.41
+Account Before: 0.0
+Account After: 1885.5806460189324
+Updated Quantity: 0.0
+Gain: 1.6144028367885235
+-------------------
+Time Now: 2017-12-09T15:50:00.000000Z
+BUY ORDER
+Crypto Price @: 138.79
+Account Before: 1885.5806460189324
+Account After: 0.0
+Updated Quantity: 13.551889144779055
+-------------------
+2017-12-09T16:10:00.000000Z
+SELL ORDER
+Crypto Price @: 138.8
+Account Before: 0.0
+Account After: 1876.2997077620948
+Updated Quantity: 0.0
+Gain: -0.4922058505655853
+-------------------
+Time Now: 2017-12-09T18:10:00.000000Z
+BUY ORDER
+Crypto Price @: 124.01
+Account Before: 1876.2997077620948
+Account After: 0.0
+Updated Quantity: 15.092403503690747
+-------------------
+2017-12-09T18:40:00.000000Z
+SELL ORDER
+Crypto Price @: 127.5
+Account Before: 0.0
+Account After: 1919.470743103769
+Updated Quantity: 0.0
+Gain: 2.3008603136843924
+-------------------
+Time Now: 2017-12-09T19:00:00.000000Z
+BUY ORDER
+Crypto Price @: 130.04
+Account Before: 1919.470743103769
+Account After: 0.0
+Updated Quantity: 14.723716289188019
+-------------------
+2017-12-09T19:10:00.000000Z
+SELL ORDER
+Crypto Price @: 128.0
+Account Before: 0.0
+Account After: 1879.9240958035264
+Updated Quantity: 0.0
+Gain: -2.0602891418025013
+-------------------
+Time Now: 2017-12-09T19:50:00.000000Z
+BUY ORDER
+Crypto Price @: 124.8
+Account Before: 1879.9240958035264
+Account After: 0.0
+Updated Quantity: 15.025835621506552
+-------------------
+2017-12-09T21:20:00.000000Z
+SELL ORDER
+Crypto Price @: 132.0
+Account Before: 0.0
+Account After: 1978.4517762837677
+Updated Quantity: 0.0
+Gain: 5.24104567307693
+-------------------
+Time Now: 2017-12-09T21:40:00.000000Z
+BUY ORDER
+Crypto Price @: 131.16
+Account Before: 1978.4517762837677
+Account After: 0.0
+Updated Quantity: 15.046551134820513
+-------------------
+2017-12-09T23:10:00.000000Z
+SELL ORDER
+Crypto Price @: 136.29
+Account Before: 0.0
+Account After: 2045.567718029276
+Updated Quantity: 0.0
+Gain: 3.392346609103395
+-------------------
+Time Now: 2017-12-09T23:30:00.000000Z
+BUY ORDER
+Crypto Price @: 135.52
+Account Before: 2045.567718029276
+Account After: 0.0
+Updated Quantity: 15.056477263386974
+-------------------
+2017-12-09T23:40:00.000000Z
+SELL ORDER
+Crypto Price @: 135.49
+Account Before: 0.0
+Account After: 2034.9020991552604
+Updated Quantity: 0.0
+Gain: -0.5214014075413215
+-------------------
+Time Now: 2017-12-10T00:10:00.000000Z
+BUY ORDER
+Crypto Price @: 134.04
+Account Before: 2034.9020991552604
+Account After: 0.0
+Updated Quantity: 15.143351566005464
+-------------------
+2017-12-10T00:20:00.000000Z
+SELL ORDER
+Crypto Price @: 134.0
+Account Before: 0.0
+Account After: 2024.1360870701205
+Updated Quantity: 0.0
+Gain: -0.5290678155774244
+-------------------
+Time Now: 2017-12-10T02:20:00.000000Z
+BUY ORDER
+Crypto Price @: 127.0
+Account Before: 2024.1360870701205
+Account After: 0.0
+Updated Quantity: 15.898234227184608
+-------------------
+2017-12-10T03:00:00.000000Z
+SELL ORDER
+Crypto Price @: 128.03
+Account Before: 0.0
+Account After: 2030.3623007861795
+Updated Quantity: 0.0
+Gain: 0.3075985728346572
+-------------------
+Time Now: 2017-12-10T04:10:00.000000Z
+BUY ORDER
+Crypto Price @: 120.11
+Account Before: 2030.3623007861795
+Account After: 0.0
+Updated Quantity: 16.86192985625022
+-------------------
+2017-12-10T04:30:00.000000Z
+SELL ORDER
+Crypto Price @: 117.01
+Account Before: 0.0
+Account After: 1968.081876448639
+Updated Quantity: 0.0
+Gain: -3.0674537403213646
+-------------------
+Time Now: 2017-12-10T04:50:00.000000Z
+BUY ORDER
+Crypto Price @: 119.53
+Account Before: 1968.081876448639
+Account After: 0.0
+Updated Quantity: 16.4240079624991
+-------------------
+2017-12-10T05:20:00.000000Z
+SELL ORDER
+Crypto Price @: 120.56
+Account Before: 0.0
+Account After: 1975.1282039589944
+Updated Quantity: 0.0
+Gain: 0.3580302016230348
+-------------------
+Time Now: 2017-12-10T05:30:00.000000Z
+BUY ORDER
+Crypto Price @: 121.02
+Account Before: 1975.1282039589944
+Account After: 0.0
+Updated Quantity: 16.27987426416375
+-------------------
+2017-12-10T05:50:00.000000Z
+SELL ORDER
+Crypto Price @: 120.36
+Account Before: 0.0
+Account After: 1954.5470522686624
+Updated Quantity: 0.0
+Gain: -1.0420159890926919
+-------------------
+Time Now: 2017-12-10T06:10:00.000000Z
+BUY ORDER
+Crypto Price @: 119.28
+Account Before: 1954.5470522686624
+Account After: 0.0
+Updated Quantity: 16.345243834993216
+-------------------
+2017-12-10T06:30:00.000000Z
+SELL ORDER
+Crypto Price @: 119.4
+Account Before: 0.0
+Account After: 1946.7430586134446
+Updated Quantity: 0.0
+Gain: -0.3992737676056218
+-------------------
+Time Now: 2017-12-10T06:40:00.000000Z
+BUY ORDER
+Crypto Price @: 120.22
+Account Before: 1946.7430586134446
+Account After: 0.0
+Updated Quantity: 16.15268841263443
+-------------------
+2017-12-10T07:20:00.000000Z
+SELL ORDER
+Crypto Price @: 120.57
+Account Before: 0.0
+Account After: 1942.6608178065549
+Updated Quantity: 0.0
+Gain: -0.2096959220595519
+-------------------
+Time Now: 2017-12-10T08:50:00.000000Z
+BUY ORDER
+Crypto Price @: 117.83
+Account Before: 1942.6608178065549
+Account After: 0.0
+Updated Quantity: 16.44576224868063
+-------------------
+2017-12-10T09:00:00.000000Z
+SELL ORDER
+Crypto Price @: 115.79
+Account Before: 0.0
+Account After: 1899.4941737477934
+Updated Quantity: 0.0
+Gain: -2.222037097937694
+-------------------
+Time Now: 2017-12-10T09:20:00.000000Z
+BUY ORDER
+Crypto Price @: 116.3
+Account Before: 1899.4941737477934
+Account After: 0.0
+Updated Quantity: 16.291878231413794
+-------------------
+2017-12-10T10:50:00.000000Z
+SELL ORDER
+Crypto Price @: 120.23
+Account Before: 0.0
+Account After: 1953.8755884634734
+Updated Quantity: 0.0
+Gain: 2.8629419067068165
+-------------------
+Time Now: 2017-12-10T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 118.25
+Account Before: 1953.8755884634734
+Account After: 0.0
+Updated Quantity: 16.48195263841281
+-------------------
+2017-12-10T11:50:00.000000Z
+SELL ORDER
+Crypto Price @: 118.65
+Account Before: 0.0
+Account After: 1950.6947213463109
+Updated Quantity: 0.0
+Gain: -0.16279783298095957
+-------------------
+Time Now: 2017-12-10T12:20:00.000000Z
+BUY ORDER
+Crypto Price @: 118.01
+Account Before: 1950.6947213463109
+Account After: 0.0
+Updated Quantity: 16.488585582094274
+-------------------
+2017-12-10T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 125.99
+Account Before: 0.0
+Account After: 2072.203405244338
+Updated Quantity: 0.0
+Gain: 6.228995371155014
+-------------------
+Time Now: 2017-12-10T14:20:00.000000Z
+BUY ORDER
+Crypto Price @: 125.62
+Account Before: 2072.203405244338
+Account After: 0.0
+Updated Quantity: 16.454568514020274
+-------------------
+2017-12-10T14:40:00.000000Z
+SELL ORDER
+Crypto Price @: 125.65
+Account Before: 0.0
+Account After: 2062.3477424521807
+Updated Quantity: 0.0
+Gain: -0.4756127109536812
+-------------------
+Time Now: 2017-12-10T15:10:00.000000Z
+BUY ORDER
+Crypto Price @: 123.99
+Account Before: 2062.3477424521807
+Account After: 0.0
+Updated Quantity: 16.5915950729579
+-------------------
+2017-12-10T15:20:00.000000Z
+SELL ORDER
+Crypto Price @: 123.0
+Account Before: 0.0
+Account After: 2035.6642784888875
+Updated Quantity: 0.0
+Gain: -1.2938392209049057
+-------------------
+Time Now: 2017-12-10T15:30:00.000000Z
+BUY ORDER
+Crypto Price @: 124.57
+Account Before: 2035.6642784888875
+Account After: 0.0
+Updated Quantity: 16.300675265253798
+-------------------
+2017-12-10T16:00:00.000000Z
+SELL ORDER
+Crypto Price @: 124.67
+Account Before: 0.0
+Account After: 2027.1246723558932
+Updated Quantity: 0.0
+Gain: -0.4194997290679697
+-------------------
+Time Now: 2017-12-10T16:20:00.000000Z
+BUY ORDER
+Crypto Price @: 124.1
+Account Before: 2027.1246723558932
+Account After: 0.0
+Updated Quantity: 16.293770029613245
+-------------------
+2017-12-10T18:20:00.000000Z
+SELL ORDER
+Crypto Price @: 133.7
+Account Before: 0.0
+Account After: 2173.0308603268927
+Updated Quantity: 0.0
+Gain: 7.197691881547159
+-------------------
+Time Now: 2017-12-10T18:50:00.000000Z
+BUY ORDER
+Crypto Price @: 132.59
+Account Before: 2173.0308603268927
+Account After: 0.0
+Updated Quantity: 16.34812793706973
+-------------------
+2017-12-10T19:30:00.000000Z
+SELL ORDER
+Crypto Price @: 132.4
+Account Before: 0.0
+Account After: 2159.0809085208625
+Updated Quantity: 0.0
+Gain: -0.6419582924805619
+-------------------
+Time Now: 2017-12-10T19:40:00.000000Z
+BUY ORDER
+Crypto Price @: 132.77
+Account Before: 2159.0809085208625
+Account After: 0.0
+Updated Quantity: 16.221158441286136
+-------------------
+2017-12-10T20:00:00.000000Z
+SELL ORDER
+Crypto Price @: 132.63
+Account Before: 0.0
+Account After: 2146.0337134576107
+Updated Quantity: 0.0
+Gain: -0.6042939387662947
+-------------------
+Time Now: 2017-12-10T20:40:00.000000Z
+BUY ORDER
+Crypto Price @: 131.22
+Account Before: 2146.0337134576107
+Account After: 0.0
+Updated Quantity: 16.313585041715946
+-------------------
+2017-12-10T21:00:00.000000Z
+SELL ORDER
+Crypto Price @: 132.3
+Account Before: 0.0
+Account After: 2152.8915827664723
+Updated Quantity: 0.0
+Gain: 0.3195601851851834
+-------------------
+Time Now: 2017-12-10T22:10:00.000000Z
+BUY ORDER
+Crypto Price @: 127.95
+Account Before: 2152.8915827664723
+Account After: 0.0
+Updated Quantity: 16.783973066116108
+-------------------
+2017-12-10T22:50:00.000000Z
+SELL ORDER
+Crypto Price @: 127.17
+Account Before: 0.0
+Account After: 2129.0818101809405
+Updated Quantity: 0.0
+Gain: -1.1059438745603816
+-------------------
+Time Now: 2017-12-10T23:20:00.000000Z
+BUY ORDER
+Crypto Price @: 127.0
+Account Before: 2129.0818101809405
+Account After: 0.0
+Updated Quantity: 16.722512642956602
+-------------------
+2017-12-11T00:10:00.000000Z
+SELL ORDER
+Crypto Price @: 128.44
+Account Before: 0.0
+Account After: 2142.4699250516924
+Updated Quantity: 0.0
+Gain: 0.6288210629921316
+-------------------
+Time Now: 2017-12-11T00:30:00.000000Z
+BUY ORDER
+Crypto Price @: 127.12
+Account Before: 2142.4699250516924
+Account After: 0.0
+Updated Quantity: 16.811782176204087
+-------------------
+2017-12-11T01:00:00.000000Z
+SELL ORDER
+Crypto Price @: 128.91
+Account Before: 0.0
+Account After: 2161.7888232336327
+Updated Quantity: 0.0
+Gain: 0.9017115225771114
+-------------------
+Time Now: 2017-12-11T01:10:00.000000Z
+BUY ORDER
+Crypto Price @: 128.53
+Account Before: 2161.7888232336327
+Account After: 0.0
+Updated Quantity: 16.777284300751177
+-------------------
+2017-12-11T02:20:00.000000Z
+SELL ORDER
+Crypto Price @: 130.94
+Account Before: 0.0
+Account After: 2191.325562324508
+Updated Quantity: 0.0
+Gain: 1.3663101026997642
+-------------------
+Time Now: 2017-12-11T03:20:00.000000Z
+BUY ORDER
+Crypto Price @: 129.36
+Account Before: 2191.325562324508
+Account After: 0.0
+Updated Quantity: 16.89739678740489
+-------------------
+2017-12-11T03:40:00.000000Z
+SELL ORDER
+Crypto Price @: 129.6
+Account Before: 0.0
+Account After: 2184.4278670885546
+Updated Quantity: 0.0
+Gain: -0.31477272727273753
+-------------------
+Time Now: 2017-12-11T04:00:00.000000Z
+BUY ORDER
+Crypto Price @: 129.96
+Account Before: 2184.4278670885546
+Account After: 0.0
+Updated Quantity: 16.7664419623025
+-------------------
+2017-12-11T05:10:00.000000Z
+SELL ORDER
+Crypto Price @: 132.93
+Account Before: 0.0
+Account After: 2223.1912222237493
+Updated Quantity: 0.0
+Gain: 1.7745312499999883
+-------------------
+Time Now: 2017-12-11T05:30:00.000000Z
+BUY ORDER
+Crypto Price @: 133.14
+Account Before: 2223.1912222237493
+Account After: 0.0
+Updated Quantity: 16.6564011128751
+-------------------
+2017-12-11T06:30:00.000000Z
+SELL ORDER
+Crypto Price @: 138.0
+Account Before: 0.0
+Account After: 2292.836895192822
+Updated Quantity: 0.0
+Gain: 3.1326892744479924
+-------------------
+Time Now: 2017-12-11T06:50:00.000000Z
+BUY ORDER
+Crypto Price @: 139.6
+Account Before: 2292.836895192822
+Account After: 0.0
+Updated Quantity: 16.3832722274702
+-------------------
+2017-12-11T07:30:00.000000Z
+SELL ORDER
+Crypto Price @: 139.01
+Account Before: 0.0
+Account After: 2271.745075659781
+Updated Quantity: 0.0
+Gain: -0.9199005641117438
+-------------------
+Time Now: 2017-12-11T08:00:00.000000Z
+BUY ORDER
+Crypto Price @: 137.51
+Account Before: 2271.745075659781
+Account After: 0.0
+Updated Quantity: 16.479279419464998
+-------------------
+2017-12-11T08:10:00.000000Z
+SELL ORDER
+Crypto Price @: 137.81
+Account Before: 0.0
+Account After: 2265.3319730544804
+Updated Quantity: 0.0
+Gain: -0.28229851465345357
+-------------------
+Time Now: 2017-12-11T08:20:00.000000Z
+BUY ORDER
+Crypto Price @: 138.5
+Account Before: 2265.3319730544804
+Account After: 0.0
+Updated Quantity: 16.315297062251584
+-------------------
+2017-12-11T09:20:00.000000Z
+SELL ORDER
+Crypto Price @: 139.6
+Account Before: 0.0
+Account After: 2271.9214312155955
+Updated Quantity: 0.0
+Gain: 0.29088267148015995
+-------------------
+Time Now: 2017-12-11T09:50:00.000000Z
+BUY ORDER
+Crypto Price @: 137.96
+Account Before: 2271.9214312155955
+Account After: 0.0
+Updated Quantity: 16.426802171916183
+-------------------
+2017-12-11T10:50:00.000000Z
+SELL ORDER
+Crypto Price @: 141.27
+Account Before: 0.0
+Account After: 2314.8128069695326
+Updated Quantity: 0.0
+Gain: 1.8878899228037147
+-------------------
+Time Now: 2017-12-11T11:50:00.000000Z
+BUY ORDER
+Crypto Price @: 139.1
+Account Before: 2314.8128069695326
+Account After: 0.0
+Updated Quantity: 16.599753953645642
+-------------------
+2017-12-11T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 151.79
+Account Before: 0.0
+Account After: 2513.3774609923125
+Updated Quantity: 0.0
+Gain: 8.578000494248752
+-------------------
+Time Now: 2017-12-11T14:20:00.000000Z
+BUY ORDER
+Crypto Price @: 151.99
+Account Before: 2513.3774609923125
+Account After: 0.0
+Updated Quantity: 16.49512479334056
+-------------------
+2017-12-11T15:00:00.000000Z
+SELL ORDER
+Crypto Price @: 154.73
+Account Before: 0.0
+Account After: 2545.9099326254004
+Updated Quantity: 0.0
+Gain: 1.2943726972169018
+-------------------
+Time Now: 2017-12-11T15:20:00.000000Z
+BUY ORDER
+Crypto Price @: 156.9
+Account Before: 2545.9099326254004
+Account After: 0.0
+Updated Quantity: 16.185756263823052
+-------------------
+2017-12-11T15:30:00.000000Z
+SELL ORDER
+Crypto Price @: 154.01
+Account Before: 0.0
+Account After: 2486.53640138591
+Updated Quantity: 0.0
+Gain: -2.332114364244742
+-------------------
+Time Now: 2017-12-11T16:20:00.000000Z
+BUY ORDER
+Crypto Price @: 153.99
+Account Before: 2486.53640138591
+Account After: 0.0
+Updated Quantity: 16.107020328478765
+-------------------
+2017-12-11T17:00:00.000000Z
+SELL ORDER
+Crypto Price @: 155.2
+Account Before: 0.0
+Account After: 2493.5600310924547
+Updated Quantity: 0.0
+Gain: 0.28246639392168654
+-------------------
+Time Now: 2017-12-11T17:10:00.000000Z
+BUY ORDER
+Crypto Price @: 157.07
+Account Before: 2493.5600310924547
+Account After: 0.0
+Updated Quantity: 15.835781059494007
+-------------------
+2017-12-11T18:10:00.000000Z
+SELL ORDER
+Crypto Price @: 161.5
+Account Before: 0.0
+Account After: 2551.084944505512
+Updated Quantity: 0.0
+Gain: 2.3069391831667656
+-------------------
+Time Now: 2017-12-11T18:40:00.000000Z
+BUY ORDER
+Crypto Price @: 162.1
+Account Before: 2551.084944505512
+Account After: 0.0
+Updated Quantity: 15.69837897683065
+-------------------
+2017-12-11T19:10:00.000000Z
+SELL ORDER
+Crypto Price @: 165.97
+Account Before: 0.0
+Account After: 2598.9463088876214
+Updated Quantity: 0.0
+Gain: 1.876118021283164
+-------------------
+Time Now: 2017-12-11T20:40:00.000000Z
+BUY ORDER
+Crypto Price @: 160.9
+Account Before: 2598.9463088876214
+Account After: 0.0
+Updated Quantity: 16.112174910599144
+-------------------
+2017-12-11T21:30:00.000000Z
+SELL ORDER
+Crypto Price @: 162.64
+Account Before: 0.0
+Account After: 2613.9329171411955
+Updated Quantity: 0.0
+Gain: 0.576641702921079
+-------------------
+Time Now: 2017-12-11T21:50:00.000000Z
+BUY ORDER
+Crypto Price @: 163.02
+Account Before: 2613.9329171411955
+Account After: 0.0
+Updated Quantity: 15.994344772717104
+-------------------
+2017-12-11T23:20:00.000000Z
+SELL ORDER
+Crypto Price @: 185.0
+Account Before: 0.0
+Account After: 2951.556398495283
+Updated Quantity: 0.0
+Gain: 12.916302447552445
+-------------------
+Time Now: 2017-12-11T23:50:00.000000Z
+BUY ORDER
+Crypto Price @: 181.8
+Account Before: 2951.556398495283
+Account After: 0.0
+Updated Quantity: 16.194595750819825
+-------------------
+2017-12-12T00:00:00.000000Z
+SELL ORDER
+Crypto Price @: 179.1
+Account Before: 0.0
+Account After: 2893.2009687244013
+Updated Quantity: 0.0
+Gain: -1.9771070544554528
+-------------------
+Time Now: 2017-12-12T00:30:00.000000Z
+BUY ORDER
+Crypto Price @: 179.74
+Account Before: 2893.2009687244013
+Account After: 0.0
+Updated Quantity: 16.056347870827807
+-------------------
+2017-12-12T02:50:00.000000Z
+SELL ORDER
+Crypto Price @: 217.47
+Account Before: 0.0
+Account After: 3483.044536540251
+Updated Quantity: 0.0
+Gain: 20.38723110465116
+-------------------
+Time Now: 2017-12-12T03:50:00.000000Z
+BUY ORDER
+Crypto Price @: 207.5
+Account Before: 3483.044536540251
+Account After: 0.0
+Updated Quantity: 16.743792410597113
+-------------------
+2017-12-12T04:50:00.000000Z
+SELL ORDER
+Crypto Price @: 217.02
+Account Before: 0.0
+Account After: 3624.653484375416
+Updated Quantity: 0.0
+Gain: 4.065665722891585
+-------------------
+Time Now: 2017-12-12T05:10:00.000000Z
+BUY ORDER
+Crypto Price @: 213.92
+Account Before: 3624.653484375416
+Account After: 0.0
+Updated Quantity: 16.90160737969558
+-------------------
+2017-12-12T05:40:00.000000Z
+SELL ORDER
+Crypto Price @: 218.0
+Account Before: 0.0
+Account After: 3675.3390327517022
+Updated Quantity: 0.0
+Gain: 1.3983556937172983
+-------------------
+Time Now: 2017-12-12T09:00:00.000000Z
+BUY ORDER
+Crypto Price @: 207.17
+Account Before: 3675.3390327517022
+Account After: 0.0
+Updated Quantity: 17.6963396494175
+-------------------
+2017-12-12T10:00:00.000000Z
+SELL ORDER
+Crypto Price @: 214.01
+Account Before: 0.0
+Account After: 3777.725664250909
+Updated Quantity: 0.0
+Gain: 2.785773790848099
+-------------------
+Time Now: 2017-12-12T10:30:00.000000Z
+BUY ORDER
+Crypto Price @: 212.01
+Account Before: 3777.725664250909
+Account After: 0.0
+Updated Quantity: 17.774073629028265
+-------------------
+2017-12-12T12:50:00.000000Z
+SELL ORDER
+Crypto Price @: 259.36
+Account Before: 0.0
+Account After: 4598.359027083709
+Updated Quantity: 0.0
+Gain: 21.72294750247633
+-------------------
+Time Now: 2017-12-12T13:10:00.000000Z
+BUY ORDER
+Crypto Price @: 267.4
+Account Before: 4598.359027083709
+Account After: 0.0
+Updated Quantity: 17.153564433492896
+-------------------
+2017-12-12T13:20:00.000000Z
+SELL ORDER
+Crypto Price @: 262.83
+Account Before: 0.0
+Account After: 4497.2001617048
+Updated Quantity: 0.0
+Gain: -2.199890543193724
+-------------------
+Time Now: 2017-12-12T13:40:00.000000Z
+BUY ORDER
+Crypto Price @: 264.3
+Account Before: 4497.2001617048
+Account After: 0.0
+Updated Quantity: 16.972974503596436
+-------------------
+2017-12-12T14:40:00.000000Z
+SELL ORDER
+Crypto Price @: 336.0
+Account Before: 0.0
+Account After: 5688.662134625381
+Updated Quantity: 0.0
+Gain: 26.493416572077187
+-------------------
+Time Now: 2017-12-12T15:30:00.000000Z
+BUY ORDER
+Crypto Price @: 293.95
+Account Before: 5688.662134625381
+Account After: 0.0
+Updated Quantity: 19.304100967133248
+-------------------
+2017-12-12T16:00:00.000000Z
+SELL ORDER
+Crypto Price @: 320.0
+Account Before: 0.0
+Account After: 6161.869028708933
+Updated Quantity: 0.0
+Gain: 8.318421500255155
+-------------------
+Time Now: 2017-12-12T16:40:00.000000Z
+BUY ORDER
+Crypto Price @: 301.0
+Account Before: 6161.869028708933
+Account After: 0.0
+Updated Quantity: 20.420147362581933
+-------------------
+2017-12-12T16:50:00.000000Z
+SELL ORDER
+Crypto Price @: 296.5
+Account Before: 0.0
+Account After: 6039.4372587730295
+Updated Quantity: 0.0
+Gain: -1.9869258720930012
+-------------------
+Time Now: 2017-12-12T17:10:00.000000Z
+BUY ORDER
+Crypto Price @: 293.0
+Account Before: 6039.4372587730295
+Account After: 0.0
+Updated Quantity: 20.56088281783651
+-------------------
+2017-12-12T17:20:00.000000Z
+SELL ORDER
+Crypto Price @: 296.7
+Account Before: 0.0
+Account After: 6085.162897221962
+Updated Quantity: 0.0
+Gain: 0.7571175341297022
+-------------------
+Time Now: 2017-12-12T17:50:00.000000Z
+BUY ORDER
+Crypto Price @: 295.92
+Account Before: 6085.162897221962
+Account After: 0.0
+Updated Quantity: 20.512131623340455
+-------------------
+2017-12-12T18:10:00.000000Z
+SELL ORDER
+Crypto Price @: 297.49
+Account Before: 0.0
+Account After: 6086.898651535984
+Updated Quantity: 0.0
+Gain: 0.02852436891728771
+-------------------
+Time Now: 2017-12-12T18:50:00.000000Z
+BUY ORDER
+Crypto Price @: 285.07
+Account Before: 6086.898651535984
+Account After: 0.0
+Updated Quantity: 21.29891396817324
+-------------------
+2017-12-12T19:30:00.000000Z
+SELL ORDER
+Crypto Price @: 289.01
+Account Before: 0.0
+Account After: 6140.210128126893
+Updated Quantity: 0.0
+Gain: 0.875839727961574
+-------------------
+Time Now: 2017-12-12T19:50:00.000000Z
+BUY ORDER
+Crypto Price @: 286.4
+Account Before: 6140.210128126893
+Account After: 0.0
+Updated Quantity: 21.385682970693356
+-------------------
+2017-12-12T21:40:00.000000Z
+SELL ORDER
+Crypto Price @: 304.01
+Account Before: 0.0
+Account After: 6485.207826220687
+Updated Quantity: 0.0
+Gain: 5.6186627313198665
+-------------------
+Time Now: 2017-12-12T23:30:00.000000Z
+BUY ORDER
+Crypto Price @: 290.05
+Account Before: 6485.207826220687
+Account After: 0.0
+Updated Quantity: 22.303033293070627
+-------------------
+2017-12-12T23:40:00.000000Z
+SELL ORDER
+Crypto Price @: 288.98
+Account Before: 0.0
+Account After: 6429.017734628972
+Updated Quantity: 0.0
+Gain: -0.86643470953282
+-------------------
+Time Now: 2017-12-13T00:00:00.000000Z
+BUY ORDER
+Crypto Price @: 288.04
+Account Before: 6429.017734628972
+Account After: 0.0
+Updated Quantity: 22.264078566492152
+-------------------
+2017-12-13T00:20:00.000000Z
+SELL ORDER
+Crypto Price @: 286.04
+Account Before: 0.0
+Account After: 6352.495990576518
+Updated Quantity: 0.0
+Gain: -1.1902556068601364
+-------------------
+Time Now: 2017-12-13T01:00:00.000000Z
+BUY ORDER
+Crypto Price @: 283.4
+Account Before: 6352.495990576518
+Account After: 0.0
+Updated Quantity: 22.359261646436405
+-------------------
+2017-12-13T01:30:00.000000Z
+SELL ORDER
+Crypto Price @: 296.85
+Account Before: 0.0
+Account After: 6620.753452695286
+Updated Quantity: 0.0
+Gain: 4.222867082745253
+-------------------
+Time Now: 2017-12-13T02:20:00.000000Z
+BUY ORDER
+Crypto Price @: 285.11
+Account Before: 6620.753452695286
+Account After: 0.0
+Updated Quantity: 23.163696710264627
+-------------------
+2017-12-13T02:30:00.000000Z
+SELL ORDER
+Crypto Price @: 286.5
+Account Before: 0.0
+Account After: 6619.808109722088
+Updated Quantity: 0.0
+Gain: -0.014278480235699853
+-------------------
+Time Now: 2017-12-13T03:10:00.000000Z
+BUY ORDER
+Crypto Price @: 278.4
+Account Before: 6619.808109722088
+Account After: 0.0
+Updated Quantity: 23.718601255200372
+-------------------
+2017-12-13T03:30:00.000000Z
+SELL ORDER
+Crypto Price @: 271.9
+Account Before: 0.0
+Account After: 6432.964962085759
+Updated Quantity: 0.0
+Gain: -2.822485856681024
+-------------------
+Time Now: 2017-12-13T03:50:00.000000Z
+BUY ORDER
+Crypto Price @: 270.0
+Account Before: 6432.964962085759
+Account After: 0.0
+Updated Quantity: 23.7662316654835
+-------------------
+2017-12-13T04:00:00.000000Z
+SELL ORDER
+Crypto Price @: 273.22
+Account Before: 0.0
+Account After: 6477.176291104294
+Updated Quantity: 0.0
+Gain: 0.6872620833333534
+-------------------
+Time Now: 2017-12-13T04:40:00.000000Z
+BUY ORDER
+Crypto Price @: 265.93
+Account Before: 6477.176291104294
+Account After: 0.0
+Updated Quantity: 24.29580472446333
+-------------------
+2017-12-13T05:30:00.000000Z
+SELL ORDER
+Crypto Price @: 280.0
+Account Before: 0.0
+Account After: 6785.818259542609
+Updated Quantity: 0.0
+Gain: 4.765069755198744
+-------------------
+Time Now: 2017-12-13T06:00:00.000000Z
+BUY ORDER
+Crypto Price @: 275.85
+Account Before: 6785.818259542609
+Account After: 0.0
+Updated Quantity: 24.538168257726127
+-------------------
+2017-12-13T06:30:00.000000Z
+SELL ORDER
+Crypto Price @: 276.48
+Account Before: 0.0
+Account After: 6767.35197799638
+Updated Quantity: 0.0
+Gain: -0.2721305057096174
+-------------------
+Time Now: 2017-12-13T07:00:00.000000Z
+BUY ORDER
+Crypto Price @: 273.0
+Account Before: 6767.35197799638
+Account After: 0.0
+Updated Quantity: 24.726862996525238
+-------------------
+2017-12-13T07:50:00.000000Z
+SELL ORDER
+Crypto Price @: 281.63
+Account Before: 0.0
+Account After: 6946.4168596471245
+Updated Quantity: 0.0
+Gain: 2.6460110576923266
+-------------------
+Time Now: 2017-12-13T08:10:00.000000Z
+BUY ORDER
+Crypto Price @: 284.89
+Account Before: 6946.4168596471245
+Account After: 0.0
+Updated Quantity: 24.321846388072615
+-------------------
+2017-12-13T08:40:00.000000Z
+SELL ORDER
+Crypto Price @: 291.09
+Account Before: 0.0
+Account After: 7062.146649441297
+Updated Quantity: 0.0
+Gain: 1.6660357725788948
+-------------------
+Time Now: 2017-12-13T09:40:00.000000Z
+BUY ORDER
+Crypto Price @: 276.04
+Account Before: 7062.146649441297
+Account After: 0.0
+Updated Quantity: 25.51982061591687
+-------------------
+2017-12-13T10:00:00.000000Z
+SELL ORDER
+Crypto Price @: 278.85
+Account Before: 0.0
+Account After: 7098.411473801549
+Updated Quantity: 0.0
+Gain: 0.5135099306259892
+-------------------
+Time Now: 2017-12-13T11:10:00.000000Z
+BUY ORDER
+Crypto Price @: 273.01
+Account Before: 7098.411473801549
+Account After: 0.0
+Updated Quantity: 25.93555344169461
+-------------------
+2017-12-13T11:30:00.000000Z
+SELL ORDER
+Crypto Price @: 270.22
+Account Before: 0.0
+Account After: 6990.784487887182
+Updated Quantity: 0.0
+Gain: -1.5162122724442064
+-------------------
+Time Now: 2017-12-13T11:50:00.000000Z
+BUY ORDER
+Crypto Price @: 271.0
+Account Before: 6990.784487887182
+Account After: 0.0
+Updated Quantity: 25.731762091023853
+-------------------
+2017-12-13T13:00:00.000000Z
+SELL ORDER
+Crypto Price @: 284.32
+Account Before: 0.0
+Account After: 7297.764461225603
+Updated Quantity: 0.0
+Gain: 4.39120922509226
+-------------------
+Time Now: 2017-12-13T13:10:00.000000Z
+BUY ORDER
+Crypto Price @: 281.17
+Account Before: 7297.764461225603
+Account After: 0.0
+Updated Quantity: 25.890102251565025
+-------------------
+2017-12-13T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 290.29
+Account Before: 0.0
+Account After: 7496.848688150295
+Updated Quantity: 0.0
+Gain: 2.7280166136145434
+-------------------
+Time Now: 2017-12-13T15:10:00.000000Z
+BUY ORDER
+Crypto Price @: 277.02
+Account Before: 7496.848688150295
+Account After: 0.0
+Updated Quantity: 26.99482552317493
+-------------------
+2017-12-13T15:30:00.000000Z
+SELL ORDER
+Crypto Price @: 279.21
+Account Before: 0.0
+Account After: 7518.3821712398585
+Updated Quantity: 0.0
+Gain: 0.28723379629630136
+-------------------
+Time Now: 2017-12-13T16:00:00.000000Z
+BUY ORDER
+Crypto Price @: 278.0
+Account Before: 7518.3821712398585
+Account After: 0.0
+Updated Quantity: 26.976928833855247
+-------------------
+2017-12-13T16:10:00.000000Z
+SELL ORDER
+Crypto Price @: 278.14
+Account Before: 0.0
+Account After: 7484.604578383877
+Updated Quantity: 0.0
+Gain: -0.44926677158273587
+-------------------
+Time Now: 2017-12-13T17:20:00.000000Z
+BUY ORDER
+Crypto Price @: 271.65
+Account Before: 7484.604578383877
+Account After: 0.0
+Updated Quantity: 27.483501074684035
+-------------------
+2017-12-13T17:30:00.000000Z
+SELL ORDER
+Crypto Price @: 271.22
+Account Before: 0.0
+Account After: 7435.439973572115
+Updated Quantity: 0.0
+Gain: -0.6568764494754077
+-------------------
+Time Now: 2017-12-13T18:00:00.000000Z
+BUY ORDER
+Crypto Price @: 266.01
+Account Before: 7435.439973572115
+Account After: 0.0
+Updated Quantity: 27.88185171098149
+-------------------
+2017-12-13T18:10:00.000000Z
+SELL ORDER
+Crypto Price @: 261.55
+Account Before: 0.0
+Account After: 7274.267069219692
+Updated Quantity: 0.0
+Gain: -2.1676310336077327
+-------------------
+Time Now: 2017-12-13T19:00:00.000000Z
+BUY ORDER
+Crypto Price @: 239.5
+Account Before: 7274.267069219692
+Account After: 0.0
+Updated Quantity: 30.296790820654042
+-------------------
+2017-12-13T20:00:00.000000Z
+SELL ORDER
+Crypto Price @: 267.79
+Account Before: 0.0
+Account After: 8092.89466982829
+Updated Quantity: 0.0
+Gain: 11.253746842379986
+-------------------
+Time Now: 2017-12-13T21:10:00.000000Z
+BUY ORDER
+Crypto Price @: 254.71
+Account Before: 8092.89466982829
+Account After: 0.0
+Updated Quantity: 31.69354337542193
+-------------------
+2017-12-13T22:30:00.000000Z
+SELL ORDER
+Crypto Price @: 265.83
+Account Before: 0.0
+Account After: 8404.03189889969
+Updated Quantity: 0.0
+Gain: 3.8445728230144054
+-------------------
+Time Now: 2017-12-14T00:10:00.000000Z
+BUY ORDER
+Crypto Price @: 259.0
+Account Before: 8404.03189889969
+Account After: 0.0
+Updated Quantity: 32.36687961062718
+-------------------
+2017-12-14T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 261.39
+Account Before: 0.0
+Account After: 8439.227714768285
+Updated Quantity: 0.0
+Gain: 0.4187967905405468
+-------------------
+Time Now: 2017-12-14T00:50:00.000000Z
+BUY ORDER
+Crypto Price @: 259.26
+Account Before: 8439.227714768285
+Account After: 0.0
+Updated Quantity: 32.46983586161138
+-------------------
+2017-12-14T01:40:00.000000Z
+SELL ORDER
+Crypto Price @: 262.5
+Account Before: 0.0
+Account After: 8502.023583888806
+Updated Quantity: 0.0
+Gain: 0.7440949722286827
+-------------------
+Time Now: 2017-12-14T02:00:00.000000Z
+BUY ORDER
+Crypto Price @: 262.82
+Account Before: 8502.023583888806
+Account After: 0.0
+Updated Quantity: 32.26835295993107
+-------------------
+2017-12-14T02:30:00.000000Z
+SELL ORDER
+Crypto Price @: 265.09
+Account Before: 0.0
+Account After: 8532.632641932756
+Updated Quantity: 0.0
+Gain: 0.36002085552848956
+-------------------
+Time Now: 2017-12-14T03:00:00.000000Z
+BUY ORDER
+Crypto Price @: 262.9
+Account Before: 8532.632641932756
+Account After: 0.0
+Updated Quantity: 32.37467120702901
+-------------------
+2017-12-14T03:10:00.000000Z
+SELL ORDER
+Crypto Price @: 263.02
+Account Before: 0.0
+Account After: 8493.89805582059
+Updated Quantity: 0.0
+Gain: -0.45395820654236846
+-------------------
+Time Now: 2017-12-14T04:00:00.000000Z
+BUY ORDER
+Crypto Price @: 263.09
+Account Before: 8493.89805582059
+Account After: 0.0
+Updated Quantity: 32.204429323353374
+-------------------
+2017-12-14T05:40:00.000000Z
+SELL ORDER
+Crypto Price @: 264.91
+Account Before: 0.0
+Account After: 8509.94718361942
+Updated Quantity: 0.0
+Gain: 0.1889489100688383
+-------------------
+Time Now: 2017-12-14T06:10:00.000000Z
+BUY ORDER
+Crypto Price @: 262.53
+Account Before: 8509.94718361942
+Account After: 0.0
+Updated Quantity: 32.33410397158563
+-------------------
+2017-12-14T06:50:00.000000Z
+SELL ORDER
+Crypto Price @: 265.49
+Account Before: 0.0
+Account After: 8562.920310257727
+Updated Quantity: 0.0
+Gain: 0.6224847874528834
+-------------------
+Time Now: 2017-12-14T07:30:00.000000Z
+BUY ORDER
+Crypto Price @: 263.0
+Account Before: 8562.920310257727
+Account After: 0.0
+Updated Quantity: 32.477235777498414
+-------------------
+2017-12-14T07:50:00.000000Z
+SELL ORDER
+Crypto Price @: 263.01
+Account Before: 0.0
+Account After: 8520.48318738526
+Updated Quantity: 0.0
+Gain: -0.4955917062737379
+-------------------
+Time Now: 2017-12-14T09:10:00.000000Z
+BUY ORDER
+Crypto Price @: 257.22
+Account Before: 8520.48318738526
+Account After: 0.0
+Updated Quantity: 33.042461625910875
+-------------------
+2017-12-14T09:20:00.000000Z
+SELL ORDER
+Crypto Price @: 258.28
+Account Before: 0.0
+Account After: 8512.871471268409
+Updated Quantity: 0.0
+Gain: -0.08933432470262491
+-------------------
+Time Now: 2017-12-14T10:00:00.000000Z
+BUY ORDER
+Crypto Price @: 255.58
+Account Before: 8512.871471268409
+Account After: 0.0
+Updated Quantity: 33.22478007899772
+-------------------
+2017-12-14T10:20:00.000000Z
+SELL ORDER
+Crypto Price @: 256.16
+Account Before: 0.0
+Account After: 8489.582515873466
+Updated Quantity: 0.0
+Gain: -0.27357344080131607
+-------------------
+Time Now: 2017-12-14T10:50:00.000000Z
+BUY ORDER
+Crypto Price @: 253.84
+Account Before: 8489.582515873466
+Account After: 0.0
+Updated Quantity: 33.36100913797582
+-------------------
+2017-12-14T11:10:00.000000Z
+SELL ORDER
+Crypto Price @: 256.07
+Account Before: 0.0
+Account After: 8521.396725936565
+Updated Quantity: 0.0
+Gain: 0.3747441055389297
+-------------------
+Time Now: 2017-12-14T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 256.1
+Account Before: 8521.396725936565
+Account After: 0.0
+Updated Quantity: 33.19052414729295
+-------------------
+2017-12-14T12:10:00.000000Z
+SELL ORDER
+Crypto Price @: 258.42
+Account Before: 0.0
+Account After: 8555.652512018085
+Updated Quantity: 0.0
+Gain: 0.40199731550175627
+-------------------
+Time Now: 2017-12-14T14:00:00.000000Z
+BUY ORDER
+Crypto Price @: 250.04
+Account Before: 8555.652512018085
+Account After: 0.0
+Updated Quantity: 34.13159246815726
+-------------------
+2017-12-14T14:20:00.000000Z
+SELL ORDER
+Crypto Price @: 250.51
+Account Before: 0.0
+Account After: 8528.92946612508
+Updated Quantity: 0.0
+Gain: -0.3123437499999754
+-------------------
+Time Now: 2017-12-14T14:50:00.000000Z
+BUY ORDER
+Crypto Price @: 241.09
+Account Before: 8528.92946612508
+Account After: 0.0
+Updated Quantity: 35.28809632278306
+-------------------
+2017-12-14T15:00:00.000000Z
+SELL ORDER
+Crypto Price @: 234.0
+Account Before: 0.0
+Account After: 8236.77100318241
+Updated Quantity: 0.0
+Gain: -3.4254998133476886
+-------------------
+Time Now: 2017-12-14T15:30:00.000000Z
+BUY ORDER
+Crypto Price @: 230.01
+Account Before: 8236.77100318241
+Account After: 0.0
+Updated Quantity: 35.7209646349048
+-------------------
+2017-12-14T16:20:00.000000Z
+SELL ORDER
+Crypto Price @: 243.61
+Account Before: 0.0
+Account After: 8680.229234222386
+Updated Quantity: 0.0
+Gain: 5.383884423503327
+-------------------
+Time Now: 2017-12-14T17:10:00.000000Z
+BUY ORDER
+Crypto Price @: 238.87
+Account Before: 8680.229234222386
+Account After: 0.0
+Updated Quantity: 36.247869808418095
+-------------------
+2017-12-14T17:20:00.000000Z
+SELL ORDER
+Crypto Price @: 239.8
+Account Before: 0.0
+Account After: 8670.508582108512
+Updated Quantity: 0.0
+Gain: -0.11198612215850064
+-------------------
+Time Now: 2017-12-14T17:30:00.000000Z
+BUY ORDER
+Crypto Price @: 241.01
+Account Before: 8670.508582108512
+Account After: 0.0
+Updated Quantity: 35.885781961965236
+-------------------
+2017-12-14T17:50:00.000000Z
+SELL ORDER
+Crypto Price @: 240.59
+Account Before: 0.0
+Account After: 8612.175881523643
+Updated Quantity: 0.0
+Gain: -0.6727713839674688
+-------------------
+Time Now: 2017-12-14T18:20:00.000000Z
+BUY ORDER
+Crypto Price @: 238.5
+Account Before: 8612.175881523643
+Account After: 0.0
+Updated Quantity: 36.019477743479385
+-------------------
+2017-12-14T18:30:00.000000Z
+SELL ORDER
+Crypto Price @: 235.98
+Account Before: 0.0
+Account After: 8478.6266670115
+Updated Quantity: 0.0
+Gain: -1.5507023584905624
+-------------------
+Time Now: 2017-12-14T19:30:00.000000Z
+BUY ORDER
+Crypto Price @: 229.1
+Account Before: 8478.6266670115
+Account After: 0.0
+Updated Quantity: 36.91588869639447
+-------------------
+2017-12-14T20:00:00.000000Z
+SELL ORDER
+Crypto Price @: 233.34
+Account Before: 0.0
+Account After: 8592.418584745643
+Updated Quantity: 0.0
+Gain: 1.3421031754692359
+-------------------
+Time Now: 2017-12-14T20:40:00.000000Z
+BUY ORDER
+Crypto Price @: 234.48
+Account Before: 8592.418584745643
+Account After: 0.0
+Updated Quantity: 36.552957771595786
+-------------------
+2017-12-14T21:10:00.000000Z
+SELL ORDER
+Crypto Price @: 241.0
+Account Before: 0.0
+Account After: 8787.2396658972
+Updated Quantity: 0.0
+Gain: 2.267360222620295
+-------------------
+Time Now: 2017-12-14T21:30:00.000000Z
+BUY ORDER
+Crypto Price @: 238.47
+Account Before: 8787.2396658972
+Account After: 0.0
+Updated Quantity: 36.75628618581984
+-------------------
+2017-12-14T21:50:00.000000Z
+SELL ORDER
+Crypto Price @: 239.0
+Account Before: 0.0
+Account After: 8762.790517414915
+Updated Quantity: 0.0
+Gain: -0.27823468360798836
+-------------------
+Time Now: 2017-12-14T23:30:00.000000Z
+BUY ORDER
+Crypto Price @: 232.7
+Account Before: 8762.790517414915
+Account After: 0.0
+Updated Quantity: 37.5628858664434
+-------------------
+2017-12-15T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 238.49
+Account Before: 0.0
+Account After: 8935.976718662367
+Updated Quantity: 0.0
+Gain: 1.9763818489471694
+-------------------
+Time Now: 2017-12-15T00:40:00.000000Z
+BUY ORDER
+Crypto Price @: 238.5
+Account Before: 8935.976718662367
+Account After: 0.0
+Updated Quantity: 37.37373910635518
+-------------------
+2017-12-15T01:00:00.000000Z
+SELL ORDER
+Crypto Price @: 238.0
+Account Before: 0.0
+Account After: 8872.712532544252
+Updated Quantity: 0.0
+Gain: -0.7079716981132048
+-------------------
+Time Now: 2017-12-15T01:40:00.000000Z
+BUY ORDER
+Crypto Price @: 235.01
+Account Before: 8872.712532544252
+Account After: 0.0
+Updated Quantity: 37.66023042088801
+-------------------
+2017-12-15T01:50:00.000000Z
+SELL ORDER
+Crypto Price @: 235.05
+Account Before: 0.0
+Account After: 8829.907067528653
+Updated Quantity: 0.0
+Gain: -0.48243944406620637
+-------------------
+Time Now: 2017-12-15T03:00:00.000000Z
+BUY ORDER
+Crypto Price @: 221.0
+Account Before: 8829.907067528653
+Account After: 0.0
+Updated Quantity: 39.85444479574585
+-------------------
+2017-12-15T04:30:00.000000Z
+SELL ORDER
+Crypto Price @: 232.31
+Account Before: 0.0
+Account After: 9235.439605323469
+Updated Quantity: 0.0
+Gain: 4.592715808823542
+-------------------
+Time Now: 2017-12-15T04:50:00.000000Z
+BUY ORDER
+Crypto Price @: 229.28
+Account Before: 9235.439605323469
+Account After: 0.0
+Updated Quantity: 40.179479266879625
+-------------------
+2017-12-15T05:00:00.000000Z
+SELL ORDER
+Crypto Price @: 232.49
+Account Before: 0.0
+Account After: 9317.973816919954
+Updated Quantity: 0.0
+Gain: 0.8936684675942314
+-------------------
+Time Now: 2017-12-15T06:20:00.000000Z
+BUY ORDER
+Crypto Price @: 224.7
+Account Before: 9317.973816919954
+Account After: 0.0
+Updated Quantity: 41.364837037728776
+-------------------
+2017-12-15T07:30:00.000000Z
+SELL ORDER
+Crypto Price @: 229.0
+Account Before: 0.0
+Account After: 9448.86631243579
+Updated Quantity: 0.0
+Gain: 1.4047313084112392
+-------------------
+Time Now: 2017-12-15T08:10:00.000000Z
+BUY ORDER
+Crypto Price @: 228.5
+Account Before: 9448.86631243579
+Account After: 0.0
+Updated Quantity: 41.248333245753614
+-------------------
+2017-12-15T09:00:00.000000Z
+SELL ORDER
+Crypto Price @: 228.73
+Account Before: 0.0
+Account After: 9411.14443514297
+Updated Quantity: 0.0
+Gain: -0.3992211980306329
+-------------------
+Time Now: 2017-12-15T10:30:00.000000Z
+BUY ORDER
+Crypto Price @: 220.0
+Account Before: 9411.14443514297
+Account After: 0.0
+Updated Quantity: 42.670984427523244
+-------------------
+2017-12-15T11:00:00.000000Z
+SELL ORDER
+Crypto Price @: 218.9
+Account Before: 0.0
+Account After: 9317.326794956878
+Updated Quantity: 0.0
+Gain: -0.996878124999976
+-------------------
+Time Now: 2017-12-15T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 220.0
+Account Before: 9317.326794956878
+Account After: 0.0
+Updated Quantity: 42.24560671804312
+-------------------
+2017-12-15T12:10:00.000000Z
+SELL ORDER
+Crypto Price @: 220.49
+Account Before: 0.0
+Account After: 9291.446990698176
+Updated Quantity: 0.0
+Gain: -0.2777599715908865
+-------------------
+Time Now: 2017-12-15T12:30:00.000000Z
+BUY ORDER
+Crypto Price @: 220.81
+Account Before: 9291.446990698176
+Account After: 0.0
+Updated Quantity: 41.973725706360355
+-------------------
+2017-12-15T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 253.8
+Account Before: 0.0
+Account After: 10626.299255313574
+Updated Quantity: 0.0
+Gain: 14.36646268284952
+-------------------
+Time Now: 2017-12-15T14:20:00.000000Z
+BUY ORDER
+Crypto Price @: 251.04
+Account Before: 10626.299255313574
+Account After: 0.0
+Updated Quantity: 42.22328516242547
+-------------------
+2017-12-15T14:40:00.000000Z
+SELL ORDER
+Crypto Price @: 249.02
+Account Before: 0.0
+Account After: 10488.156364969323
+Updated Quantity: 0.0
+Gain: -1.3000094108508495
+-------------------
+Time Now: 2017-12-15T15:00:00.000000Z
+BUY ORDER
+Crypto Price @: 247.0
+Account Before: 10488.156364969323
+Account After: 0.0
+Updated Quantity: 42.356016089299196
+-------------------
+2017-12-15T16:00:00.000000Z
+SELL ORDER
+Crypto Price @: 267.74
+Account Before: 0.0
+Account After: 11312.048748379595
+Updated Quantity: 0.0
+Gain: 7.855454807692327
+-------------------
+Time Now: 2017-12-15T16:30:00.000000Z
+BUY ORDER
+Crypto Price @: 264.49
+Account Before: 11312.048748379595
+Account After: 0.0
+Updated Quantity: 42.6623638946979
+-------------------
+2017-12-15T17:10:00.000000Z
+SELL ORDER
+Crypto Price @: 262.98
+Account Before: 0.0
+Account After: 11191.300085885086
+Updated Quantity: 0.0
+Gain: -1.067434071231397
+-------------------
+Time Now: 2017-12-15T17:30:00.000000Z
+BUY ORDER
+Crypto Price @: 261.7
+Account Before: 11191.300085885086
+Account After: 0.0
+Updated Quantity: 42.656942436646446
+-------------------
+2017-12-15T17:50:00.000000Z
+SELL ORDER
+Crypto Price @: 262.92
+Account Before: 0.0
+Account After: 11187.324897179478
+Updated Quantity: 0.0
+Gain: -0.035520347726372095
+-------------------
+Time Now: 2017-12-15T18:50:00.000000Z
+BUY ORDER
+Crypto Price @: 257.2
+Account Before: 11187.324897179478
+Account After: 0.0
+Updated Quantity: 43.38785608451217
+-------------------
+2017-12-15T19:10:00.000000Z
+SELL ORDER
+Crypto Price @: 258.0
+Account Before: 0.0
+Account After: 11166.081702629632
+Updated Quantity: 0.0
+Gain: -0.1898862752721368
+-------------------
+Time Now: 2017-12-15T19:20:00.000000Z
+BUY ORDER
+Crypto Price @: 258.98
+Account Before: 11166.081702629632
+Account After: 0.0
+Updated Quantity: 43.007824922283795
+-------------------
+2017-12-15T19:50:00.000000Z
+SELL ORDER
+Crypto Price @: 262.0
+Account Before: 0.0
+Account After: 11239.880004314258
+Updated Quantity: 0.0
+Gain: 0.6609149355162507
+-------------------
+Time Now: 2017-12-15T20:00:00.000000Z
+BUY ORDER
+Crypto Price @: 260.0
+Account Before: 11239.880004314258
+Account After: 0.0
+Updated Quantity: 43.12223193962874
+-------------------
+2017-12-15T20:30:00.000000Z
+SELL ORDER
+Crypto Price @: 262.9
+Account Before: 0.0
+Account After: 11308.492689986075
+Updated Quantity: 0.0
+Gain: 0.6104396634615367
+-------------------
+Time Now: 2017-12-15T21:00:00.000000Z
+BUY ORDER
+Crypto Price @: 261.4
+Account Before: 11308.492689986075
+Account After: 0.0
+Updated Quantity: 43.15310427796906
+-------------------
+2017-12-15T21:20:00.000000Z
+SELL ORDER
+Crypto Price @: 261.17
+Account Before: 0.0
+Account After: 11242.120503666487
+Updated Quantity: 0.0
+Gain: -0.586923369357279
+-------------------
+Time Now: 2017-12-15T21:40:00.000000Z
+BUY ORDER
+Crypto Price @: 260.71
+Account Before: 11242.120503666487
+Account After: 0.0
+Updated Quantity: 43.01336811939443
+-------------------
+2017-12-15T22:00:00.000000Z
+SELL ORDER
+Crypto Price @: 261.34
+Account Before: 0.0
+Account After: 11213.010840261733
+Updated Quantity: 0.0
+Gain: -0.25893392083157035
+-------------------
+Time Now: 2017-12-15T23:10:00.000000Z
+BUY ORDER
+Crypto Price @: 257.7
+Account Before: 11213.010840261733
+Account After: 0.0
+Updated Quantity: 43.40309783919705
+-------------------
+2017-12-15T23:30:00.000000Z
+SELL ORDER
+Crypto Price @: 258.54
+Account Before: 0.0
+Account After: 11193.383323057642
+Updated Quantity: 0.0
+Gain: -0.17504234575085165
+-------------------
+Time Now: 2017-12-16T00:00:00.000000Z
+BUY ORDER
+Crypto Price @: 257.53
+Account Before: 11193.383323057642
+Account After: 0.0
+Updated Quantity: 43.35572502135674
+-------------------
+2017-12-16T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 257.34
+Account Before: 0.0
+Account After: 11129.269371303453
+Updated Quantity: 0.0
+Gain: -0.572784384343545
+-------------------
+Time Now: 2017-12-16T01:20:00.000000Z
+BUY ORDER
+Crypto Price @: 254.02
+Account Before: 11129.269371303453
+Account After: 0.0
+Updated Quantity: 43.703039909751965
+-------------------
+2017-12-16T01:50:00.000000Z
+SELL ORDER
+Crypto Price @: 259.89
+Account Before: 0.0
+Account After: 11329.588084540073
+Updated Quantity: 0.0
+Gain: 1.7999269004408953
+-------------------
+Time Now: 2017-12-16T02:20:00.000000Z
+BUY ORDER
+Crypto Price @: 259.39
+Account Before: 11329.588084540073
+Account After: 0.0
+Updated Quantity: 43.568619123053026
+-------------------
+2017-12-16T03:00:00.000000Z
+SELL ORDER
+Crypto Price @: 260.4
+Account Before: 0.0
+Account After: 11316.905248593901
+Updated Quantity: 0.0
+Gain: -0.11194436948223153
+-------------------
+Time Now: 2017-12-16T03:20:00.000000Z
+BUY ORDER
+Crypto Price @: 260.99
+Account Before: 11316.905248593901
+Account After: 0.0
+Updated Quantity: 43.25304795383891
+-------------------
+2017-12-16T03:50:00.000000Z
+SELL ORDER
+Crypto Price @: 259.85
+Account Before: 0.0
+Account After: 11211.20624952803
+Updated Quantity: 0.0
+Gain: -0.9339920830299795
+-------------------
+Time Now: 2017-12-16T04:00:00.000000Z
+BUY ORDER
+Crypto Price @: 260.74
+Account Before: 11211.20624952803
+Account After: 0.0
+Updated Quantity: 42.890152005462184
+-------------------
+2017-12-16T04:20:00.000000Z
+SELL ORDER
+Crypto Price @: 260.17
+Account Before: 0.0
+Account After: 11130.834020142944
+Updated Quantity: 0.0
+Gain: -0.716891899018177
+-------------------
+Time Now: 2017-12-16T05:40:00.000000Z
+BUY ORDER
+Crypto Price @: 257.6
+Account Before: 11130.834020142944
+Account After: 0.0
+Updated Quantity: 43.10173499647743
+-------------------
+2017-12-16T06:10:00.000000Z
+SELL ORDER
+Crypto Price @: 258.0
+Account Before: 0.0
+Account After: 11092.447010018452
+Updated Quantity: 0.0
+Gain: -0.3448709239130226
+-------------------
+Time Now: 2017-12-16T06:30:00.000000Z
+BUY ORDER
+Crypto Price @: 257.43
+Account Before: 11092.447010018452
+Account After: 0.0
+Updated Quantity: 42.981454735242224
+-------------------
+2017-12-16T07:00:00.000000Z
+SELL ORDER
+Crypto Price @: 258.0
+Account Before: 0.0
+Account After: 11061.492283388263
+Updated Quantity: 0.0
+Gain: -0.2790612982169867
+-------------------
+Time Now: 2017-12-16T07:50:00.000000Z
+BUY ORDER
+Crypto Price @: 255.29
+Account Before: 11061.492283388263
+Account After: 0.0
+Updated Quantity: 43.22080203956204
+-------------------
+2017-12-16T08:20:00.000000Z
+SELL ORDER
+Crypto Price @: 255.6
+Account Before: 0.0
+Account After: 11019.618908808776
+Updated Quantity: 0.0
+Gain: -0.3785508637236129
+-------------------
+Time Now: 2017-12-16T08:30:00.000000Z
+BUY ORDER
+Crypto Price @: 255.25
+Account Before: 11019.618908808776
+Account After: 0.0
+Updated Quantity: 43.06393677389522
+-------------------
+2017-12-16T09:40:00.000000Z
+SELL ORDER
+Crypto Price @: 258.51
+Account Before: 0.0
+Account After: 11104.627149681106
+Updated Quantity: 0.0
+Gain: 0.7714263222331302
+-------------------
+Time Now: 2017-12-16T09:50:00.000000Z
+BUY ORDER
+Crypto Price @: 258.62
+Account Before: 11104.627149681106
+Account After: 0.0
+Updated Quantity: 42.83066113141638
+-------------------
+2017-12-16T10:40:00.000000Z
+SELL ORDER
+Crypto Price @: 259.28
+Account Before: 0.0
+Account After: 11077.370983608254
+Updated Quantity: 0.0
+Gain: -0.24544872786326985
+-------------------
+Time Now: 2017-12-16T11:00:00.000000Z
+BUY ORDER
+Crypto Price @: 259.19
+Account Before: 11077.370983608254
+Account After: 0.0
+Updated Quantity: 42.631573579803366
+-------------------
+2017-12-16T11:10:00.000000Z
+SELL ORDER
+Crypto Price @: 258.99
+Account Before: 0.0
+Account After: 11013.548363329692
+Updated Quantity: 0.0
+Gain: -0.5761531357305288
+-------------------
+Time Now: 2017-12-16T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 259.2
+Account Before: 11013.548363329692
+Account After: 0.0
+Updated Quantity: 42.38431517137873
+-------------------
+2017-12-16T12:50:00.000000Z
+SELL ORDER
+Crypto Price @: 266.23
+Account Before: 0.0
+Account After: 11255.76628750597
+Updated Quantity: 0.0
+Gain: 2.1992723524305635
+-------------------
+Time Now: 2017-12-16T13:10:00.000000Z
+BUY ORDER
+Crypto Price @: 266.0
+Account Before: 11255.76628750597
+Account After: 0.0
+Updated Quantity: 42.20912357814739
+-------------------
+2017-12-16T13:20:00.000000Z
+SELL ORDER
+Crypto Price @: 266.0
+Account Before: 0.0
+Account After: 11199.557804607739
+Updated Quantity: 0.0
+Gain: -0.4993749999999874
+-------------------
+Time Now: 2017-12-16T14:00:00.000000Z
+BUY ORDER
+Crypto Price @: 262.3
+Account Before: 11199.557804607739
+Account After: 0.0
+Updated Quantity: 42.590769767808695
+-------------------
+2017-12-16T14:40:00.000000Z
+SELL ORDER
+Crypto Price @: 263.49
+Account Before: 0.0
+Account After: 11194.186321304614
+Updated Quantity: 0.0
+Gain: -0.04796156595499274
+-------------------
+Time Now: 2017-12-16T15:50:00.000000Z
+BUY ORDER
+Crypto Price @: 259.6
+Account Before: 11194.186321304614
+Account After: 0.0
+Updated Quantity: 43.013100367878856
+-------------------
+2017-12-16T16:00:00.000000Z
+SELL ORDER
+Crypto Price @: 259.6
+Account Before: 0.0
+Account After: 11138.2853533626
+Updated Quantity: 0.0
+Gain: -0.49937499999999335
+-------------------
+Time Now: 2017-12-16T16:30:00.000000Z
+BUY ORDER
+Crypto Price @: 256.09
+Account Before: 11138.2853533626
+Account After: 0.0
+Updated Quantity: 43.3849023389402
+-------------------
+2017-12-16T17:00:00.000000Z
+SELL ORDER
+Crypto Price @: 258.79
+Account Before: 0.0
+Account After: 11199.5099291036
+Updated Quantity: 0.0
+Gain: 0.5496768470069466
+-------------------
+Time Now: 2017-12-16T17:40:00.000000Z
+BUY ORDER
+Crypto Price @: 257.93
+Account Before: 11199.5099291036
+Account After: 0.0
+Updated Quantity: 43.31218219780887
+-------------------
+2017-12-16T18:30:00.000000Z
+SELL ORDER
+Crypto Price @: 259.21
+Account Before: 0.0
+Account After: 11198.883370625303
+Updated Quantity: 0.0
+Gain: -0.00559451692318726
+-------------------
+Time Now: 2017-12-16T20:10:00.000000Z
+BUY ORDER
+Crypto Price @: 254.01
+Account Before: 11198.883370625303
+Account After: 0.0
+Updated Quantity: 43.978135357658125
+-------------------
+2017-12-16T20:40:00.000000Z
+SELL ORDER
+Crypto Price @: 257.49
+Account Before: 0.0
+Account After: 11295.620248060284
+Updated Quantity: 0.0
+Gain: 0.8638082408173179
+-------------------
+Time Now: 2017-12-16T21:00:00.000000Z
+BUY ORDER
+Crypto Price @: 253.97
+Account Before: 11295.620248060284
+Account After: 0.0
+Updated Quantity: 44.3650084554874
+-------------------
+2017-12-16T21:50:00.000000Z
+SELL ORDER
+Crypto Price @: 256.99
+Account Before: 0.0
+Account After: 11372.860114168268
+Updated Quantity: 0.0
+Gain: 0.6838036726778952
+-------------------
+Time Now: 2017-12-16T22:20:00.000000Z
+BUY ORDER
+Crypto Price @: 255.7
+Account Before: 11372.860114168268
+Account After: 0.0
+Updated Quantity: 44.36616333157156
+-------------------
+2017-12-16T23:00:00.000000Z
+SELL ORDER
+Crypto Price @: 255.59
+Account Before: 0.0
+Account After: 11311.198816701584
+Updated Quantity: 0.0
+Gain: -0.5421793361360938
+-------------------
+Time Now: 2017-12-16T23:20:00.000000Z
+BUY ORDER
+Crypto Price @: 255.6
+Account Before: 11311.198816701584
+Account After: 0.0
+Updated Quantity: 44.14288270602437
+-------------------
+2017-12-16T23:40:00.000000Z
+SELL ORDER
+Crypto Price @: 254.92
+Account Before: 0.0
+Account After: 11224.771400271184
+Updated Quantity: 0.0
+Gain: -0.7640871478873307
+-------------------
+Time Now: 2017-12-16T23:50:00.000000Z
+BUY ORDER
+Crypto Price @: 255.64
+Account Before: 11224.771400271184
+Account After: 0.0
+Updated Quantity: 43.7987383499081
+-------------------
+2017-12-17T00:30:00.000000Z
+SELL ORDER
+Crypto Price @: 260.96
+Account Before: 0.0
+Account After: 11401.144462892536
+Updated Quantity: 0.0
+Gain: 1.57128422782037
+-------------------
+Time Now: 2017-12-17T00:50:00.000000Z
+BUY ORDER
+Crypto Price @: 260.01
+Account Before: 11401.144462892536
+Account After: 0.0
+Updated Quantity: 43.739246958714304
+-------------------
+2017-12-17T02:10:00.000000Z
+SELL ORDER
+Crypto Price @: 273.56
+Account Before: 0.0
+Account After: 11935.39512703082
+Updated Quantity: 0.0
+Gain: 4.685938906195929
+-------------------
+Time Now: 2017-12-17T02:50:00.000000Z
+BUY ORDER
+Crypto Price @: 268.8
+Account Before: 11935.39512703082
+Account After: 0.0
+Updated Quantity: 44.291505354215936
+-------------------
+2017-12-17T03:20:00.000000Z
+SELL ORDER
+Crypto Price @: 269.5
+Account Before: 0.0
+Account After: 11906.719291228792
+Updated Quantity: 0.0
+Gain: -0.24025878906249942
+-------------------
+Time Now: 2017-12-17T03:40:00.000000Z
+BUY ORDER
+Crypto Price @: 267.48
+Account Before: 11906.719291228792
+Account After: 0.0
+Updated Quantity: 44.403142264844924
+-------------------
+2017-12-17T04:20:00.000000Z
+SELL ORDER
+Crypto Price @: 271.36
+Account Before: 0.0
+Account After: 12019.113593275848
+Updated Quantity: 0.0
+Gain: 0.9439569313593583
+-------------------
+Time Now: 2017-12-17T04:50:00.000000Z
+BUY ORDER
+Crypto Price @: 269.73
+Account Before: 12019.113593275848
+Account After: 0.0
+Updated Quantity: 44.44839583766232
+-------------------
+2017-12-17T05:10:00.000000Z
+SELL ORDER
+Crypto Price @: 268.26
+Account Before: 0.0
+Account After: 11893.917350742764
+Updated Quantity: 0.0
+Gain: -1.0416428928929133
+-------------------
+Time Now: 2017-12-17T05:40:00.000000Z
+BUY ORDER
+Crypto Price @: 268.63
+Account Before: 11893.917350742764
+Account After: 0.0
+Updated Quantity: 44.16551597872876
+-------------------
+2017-12-17T06:50:00.000000Z
+SELL ORDER
+Crypto Price @: 277.29
+Account Before: 0.0
+Account After: 12216.039285927345
+Updated Quantity: 0.0
+Gain: 2.7082913533484825
+-------------------
+Time Now: 2017-12-17T07:00:00.000000Z
+BUY ORDER
+Crypto Price @: 278.2
+Account Before: 12216.039285927345
+Account After: 0.0
+Updated Quantity: 43.80121922254683
+-------------------
+2017-12-17T07:30:00.000000Z
+SELL ORDER
+Crypto Price @: 278.08
+Account Before: 0.0
+Account After: 12149.792433802308
+Updated Quantity: 0.0
+Gain: -0.5422940330697259
+-------------------
+Time Now: 2017-12-17T08:40:00.000000Z
+BUY ORDER
+Crypto Price @: 276.44
+Account Before: 12149.792433802308
+Account After: 0.0
+Updated Quantity: 43.841043093321524
+-------------------
+2017-12-17T09:10:00.000000Z
+SELL ORDER
+Crypto Price @: 277.58
+Account Before: 0.0
+Account After: 12138.973249989578
+Updated Quantity: 0.0
+Gain: -0.08904830162060344
+-------------------
+Time Now: 2017-12-17T09:40:00.000000Z
+BUY ORDER
+Crypto Price @: 275.01
+Account Before: 12138.973249989578
+Account After: 0.0
+Updated Quantity: 44.02976552439768
+-------------------
+2017-12-17T10:00:00.000000Z
+SELL ORDER
+Crypto Price @: 273.42
+Account Before: 0.0
+Account After: 12008.521943456613
+Updated Quantity: 0.0
+Gain: -1.0746486036871095
+-------------------
+Time Now: 2017-12-17T10:10:00.000000Z
+BUY ORDER
+Crypto Price @: 274.35
+Account Before: 12008.521943456613
+Account After: 0.0
+Updated Quantity: 43.6613837747329
+-------------------
+2017-12-17T10:20:00.000000Z
+SELL ORDER
+Crypto Price @: 272.47
+Account Before: 0.0
+Account After: 11866.67619400872
+Updated Quantity: 0.0
+Gain: -1.181209062329145
+-------------------
+Time Now: 2017-12-17T11:00:00.000000Z
+BUY ORDER
+Crypto Price @: 272.0
+Account Before: 11866.67619400872
+Account After: 0.0
+Updated Quantity: 43.51841729236654
+-------------------
+2017-12-17T11:30:00.000000Z
+SELL ORDER
+Crypto Price @: 274.56
+Account Before: 0.0
+Account After: 11918.545610162679
+Updated Quantity: 0.0
+Gain: 0.43710147058825777
+-------------------
+Time Now: 2017-12-17T11:50:00.000000Z
+BUY ORDER
+Crypto Price @: 274.77
+Account Before: 11918.545610162679
+Account After: 0.0
+Updated Quantity: 43.268003225014645
+-------------------
+2017-12-17T12:10:00.000000Z
+SELL ORDER
+Crypto Price @: 275.9
+Account Before: 0.0
+Account After: 11907.797984557088
+Updated Quantity: 0.0
+Gain: -0.09017564690465583
+-------------------
+Time Now: 2017-12-17T13:50:00.000000Z
+BUY ORDER
+Crypto Price @: 274.01
+Account Before: 11907.797984557088
+Account After: 0.0
+Updated Quantity: 43.34888686396736
+-------------------
+2017-12-17T14:20:00.000000Z
+SELL ORDER
+Crypto Price @: 274.3
+Account Before: 0.0
+Account After: 11860.873167619282
+Updated Quantity: 0.0
+Gain: -0.39406796284805695
+-------------------
+Time Now: 2017-12-17T14:50:00.000000Z
+BUY ORDER
+Crypto Price @: 273.82
+Account Before: 11860.873167619282
+Account After: 0.0
+Updated Quantity: 43.20802346322487
+-------------------
+2017-12-17T15:40:00.000000Z
+SELL ORDER
+Crypto Price @: 275.31
+Account Before: 0.0
+Account After: 11865.861937311289
+Updated Quantity: 0.0
+Gain: 0.04206072876343027
+-------------------
+Time Now: 2017-12-17T16:10:00.000000Z
+BUY ORDER
+Crypto Price @: 275.1
+Account Before: 11865.861937311289
+Account After: 0.0
+Updated Quantity: 43.025071910098184
+-------------------
+2017-12-17T16:30:00.000000Z
+SELL ORDER
+Crypto Price @: 275.02
+Account Before: 0.0
+Account After: 11803.173388523413
+Updated Quantity: 0.0
+Gain: -0.5283101145038274
+-------------------
+Time Now: 2017-12-17T16:50:00.000000Z
+BUY ORDER
+Crypto Price @: 274.5
+Account Before: 11803.173388523413
+Account After: 0.0
+Updated Quantity: 42.89131313315885
+-------------------
+2017-12-17T17:00:00.000000Z
+SELL ORDER
+Crypto Price @: 274.95
+Account Before: 0.0
+Account After: 11763.484129597122
+Updated Quantity: 0.0
+Gain: -0.3362592213114709
+-------------------
+Time Now: 2017-12-17T17:20:00.000000Z
+BUY ORDER
+Crypto Price @: 274.5
+Account Before: 11763.484129597122
+Account After: 0.0
+Updated Quantity: 42.747087137607025
+-------------------
+2017-12-17T17:50:00.000000Z
+SELL ORDER
+Crypto Price @: 274.51
+Account Before: 0.0
+Account After: 11705.166632919143
+Updated Quantity: 0.0
+Gain: -0.49575020491804006
+-------------------
+Time Now: 2017-12-17T18:10:00.000000Z
+BUY ORDER
+Crypto Price @: 274.38
+Account Before: 11705.166632919143
+Account After: 0.0
+Updated Quantity: 42.553771106993395
+-------------------
+2017-12-17T19:20:00.000000Z
+SELL ORDER
+Crypto Price @: 275.98
+Account Before: 0.0
+Account After: 11714.629775732768
+Updated Quantity: 0.0
+Gain: 0.08084586157886567
+-------------------
+Time Now: 2017-12-17T20:00:00.000000Z
+BUY ORDER
+Crypto Price @: 276.08
+Account Before: 11714.629775732768
+Account After: 0.0
+Updated Quantity: 42.32593161870993
+-------------------
+2017-12-17T20:20:00.000000Z
+SELL ORDER
+Crypto Price @: 275.96
+Account Before: 0.0
+Account After: 11651.063429275444
+Updated Quantity: 0.0
+Gain: -0.5426236054766681
+-------------------
+Time Now: 2017-12-17T20:30:00.000000Z
+BUY ORDER
+Crypto Price @: 276.17
+Account Before: 11651.063429275444
+Account After: 0.0
+Updated Quantity: 42.08254253069578
+-------------------
+2017-12-17T21:00:00.000000Z
+SELL ORDER
+Crypto Price @: 276.5
+Account Before: 0.0
+Account After: 11606.73345221304
+Updated Quantity: 0.0
+Gain: -0.3804800937828237
+-------------------
+Time Now: 2017-12-17T22:00:00.000000Z
+BUY ORDER
+Crypto Price @: 275.84
+Account Before: 11606.73345221304
+Account After: 0.0
+Updated Quantity: 41.9725805488055
+-------------------
+2017-12-17T22:10:00.000000Z
+SELL ORDER
+Crypto Price @: 275.57
+Account Before: 0.0
+Account After: 11537.468061779748
+Updated Quantity: 0.0
+Gain: -0.5967690282409829
+-------------------
+Time Now: 2017-12-17T22:40:00.000000Z
+BUY ORDER
+Crypto Price @: 275.5
+Account Before: 11537.468061779748
+Account After: 0.0
+Updated Quantity: 41.773591258168054
+-------------------
+2017-12-17T23:10:00.000000Z
+SELL ORDER
+Crypto Price @: 275.48
+Account Before: 0.0
+Account After: 11479.019447500636
+Updated Quantity: 0.0
+Gain: -0.5065982758620597
+-------------------
+Time Now: 2017-12-17T23:50:00.000000Z
+BUY ORDER
+Crypto Price @: 273.5
+Account Before: 11479.019447500636
+Account After: 0.0
+Updated Quantity: 41.865893597374345
+-------------------
+2017-12-18T00:20:00.000000Z
+SELL ORDER
+Crypto Price @: 274.0
+Account Before: 0.0
+Account After: 11442.57670856637
+Updated Quantity: 0.0
+Gain: -0.31747257769652293
+-------------------
+Time Now: 2017-12-18T01:50:00.000000Z
+BUY ORDER
+Crypto Price @: 262.48
+Account Before: 11442.57670856637
+Account After: 0.0
+Updated Quantity: 43.48510464338218
+-------------------
+2017-12-18T02:20:00.000000Z
+SELL ORDER
+Crypto Price @: 269.19
+Account Before: 0.0
+Account After: 11676.49093065467
+Updated Quantity: 0.0
+Gain: 2.0442442995656993
+-------------------
+Time Now: 2017-12-18T03:00:00.000000Z
+BUY ORDER
+Crypto Price @: 271.05
+Account Before: 11676.49093065467
+Account After: 0.0
+Updated Quantity: 42.97103745924381
+-------------------
+2017-12-18T03:20:00.000000Z
+SELL ORDER
+Crypto Price @: 268.37
+Account Before: 0.0
+Account After: 11503.306979629919
+Updated Quantity: 0.0
+Gain: -1.483184905921405
+-------------------
+Time Now: 2017-12-18T03:30:00.000000Z
+BUY ORDER
+Crypto Price @: 268.37
+Account Before: 11503.306979629919
+Account After: 0.0
+Updated Quantity: 42.75645084093171
+-------------------
+2017-12-18T03:50:00.000000Z
+SELL ORDER
+Crypto Price @: 268.37
+Account Before: 0.0
+Account After: 11445.862340400392
+Updated Quantity: 0.0
+Gain: -0.49937499999999846
+-------------------
+Time Now: 2017-12-18T04:10:00.000000Z
+BUY ORDER
+Crypto Price @: 268.73
+Account Before: 11445.862340400392
+Account After: 0.0
+Updated Quantity: 42.48594382670112
+-------------------
+2017-12-18T04:50:00.000000Z
+SELL ORDER
+Crypto Price @: 269.92
+Account Before: 0.0
+Account After: 11439.136442808907
+Updated Quantity: 0.0
+Gain: -0.05876269861943316
+-------------------
+Time Now: 2017-12-18T05:20:00.000000Z
+BUY ORDER
+Crypto Price @: 269.04
+Account Before: 11439.136442808907
+Account After: 0.0
+Updated Quantity: 42.41205248922794
+-------------------
+2017-12-18T06:00:00.000000Z
+SELL ORDER
+Crypto Price @: 270.66
+Account Before: 0.0
+Account After: 11450.548011417599
+Updated Quantity: 0.0
+Gain: 0.09975900423729414
+-------------------
+Time Now: 2017-12-18T06:20:00.000000Z
+BUY ORDER
+Crypto Price @: 270.27
+Account Before: 11450.548011417599
+Account After: 0.0
+Updated Quantity: 42.26115233429184
+-------------------
+2017-12-18T07:10:00.000000Z
+SELL ORDER
+Crypto Price @: 273.65
+Account Before: 0.0
+Account After: 11535.852425438265
+Updated Quantity: 0.0
+Gain: 0.7449810606060668
+-------------------
+Time Now: 2017-12-18T08:20:00.000000Z
+BUY ORDER
+Crypto Price @: 268.0
+Account Before: 11535.852425438265
+Account After: 0.0
+Updated Quantity: 42.9366149043831
+-------------------
+2017-12-18T08:50:00.000000Z
+SELL ORDER
+Crypto Price @: 268.75
+Account Before: 0.0
+Account After: 11510.367217414076
+Updated Quantity: 0.0
+Gain: -0.22092175839550718
+-------------------
+Time Now: 2017-12-18T09:00:00.000000Z
+BUY ORDER
+Crypto Price @: 269.16
+Account Before: 11510.367217414076
+Account After: 0.0
+Updated Quantity: 42.65712327006442
+-------------------
+2017-12-18T09:30:00.000000Z
+SELL ORDER
+Crypto Price @: 270.68
+Account Before: 0.0
+Account After: 11517.564051424186
+Updated Quantity: 0.0
+Gain: 0.0625247993758369
+-------------------
+Time Now: 2017-12-18T09:50:00.000000Z
+BUY ORDER
+Crypto Price @: 270.0
+Account Before: 11517.564051424186
+Account After: 0.0
+Updated Quantity: 42.551000523317136
+-------------------
+2017-12-18T12:10:00.000000Z
+SELL ORDER
+Crypto Price @: 275.56
+Account Before: 0.0
+Account After: 11696.040319944757
+Updated Quantity: 0.0
+Gain: 1.5496008333333495
+-------------------
+Time Now: 2017-12-18T12:30:00.000000Z
+BUY ORDER
+Crypto Price @: 276.14
+Account Before: 11696.040319944757
+Account After: 0.0
+Updated Quantity: 42.24958433817953
+-------------------
+2017-12-18T12:50:00.000000Z
+SELL ORDER
+Crypto Price @: 275.45
+Account Before: 0.0
+Account After: 11608.553885936672
+Updated Quantity: 0.0
+Gain: -0.7480004481422564
+-------------------
+Time Now: 2017-12-18T14:00:00.000000Z
+BUY ORDER
+Crypto Price @: 275.07
+Account Before: 11608.553885936672
+Account After: 0.0
+Updated Quantity: 42.096675396160364
+-------------------
+2017-12-18T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 273.8
+Account Before: 0.0
+Account After: 11497.254549160038
+Updated Quantity: 0.0
+Gain: -0.9587700403533373
+-------------------
+Time Now: 2017-12-18T14:50:00.000000Z
+BUY ORDER
+Crypto Price @: 270.3
+Account Before: 11497.254549160038
+Account After: 0.0
+Updated Quantity: 42.42882505655619
+-------------------
+2017-12-18T15:50:00.000000Z
+SELL ORDER
+Crypto Price @: 273.05
+Account Before: 0.0
+Account After: 11556.227704988438
+Updated Quantity: 0.0
+Gain: 0.5129325055494108
+-------------------
+Time Now: 2017-12-18T18:10:00.000000Z
+BUY ORDER
+Crypto Price @: 273.48
+Account Before: 11556.227704988438
+Account After: 0.0
+Updated Quantity: 42.150567265342865
+-------------------
+2017-12-18T18:40:00.000000Z
+SELL ORDER
+Crypto Price @: 273.85
+Account Before: 0.0
+Account After: 11514.07551350011
+Updated Quantity: 0.0
+Gain: -0.3647573634269186
+-------------------
+Time Now: 2017-12-18T19:00:00.000000Z
+BUY ORDER
+Crypto Price @: 273.99
+Account Before: 11514.07551350011
+Account After: 0.0
+Updated Quantity: 41.91864785107617
+-------------------
+2017-12-18T19:40:00.000000Z
+SELL ORDER
+Crypto Price @: 276.5
+Account Before: 0.0
+Account After: 11561.529865495506
+Updated Quantity: 0.0
+Gain: 0.41214209460199674
+-------------------
+Time Now: 2017-12-18T20:10:00.000000Z
+BUY ORDER
+Crypto Price @: 276.24
+Account Before: 11561.529865495506
+Account After: 0.0
+Updated Quantity: 41.74857385183814
+-------------------
+2017-12-18T21:20:00.000000Z
+SELL ORDER
+Crypto Price @: 289.8
+Account Before: 0.0
+Account After: 12068.489860507038
+Updated Quantity: 0.0
+Gain: 4.384886783231989
+-------------------
+Time Now: 2017-12-18T21:30:00.000000Z
+BUY ORDER
+Crypto Price @: 290.66
+Account Before: 12068.489860507038
+Account After: 0.0
+Updated Quantity: 41.41718377436101
+-------------------
+2017-12-18T21:40:00.000000Z
+SELL ORDER
+Crypto Price @: 288.95
+Account Before: 0.0
+Account After: 11937.57651347261
+Updated Quantity: 0.0
+Gain: -1.0847533415330526
+-------------------
+Time Now: 2017-12-18T22:20:00.000000Z
+BUY ORDER
+Crypto Price @: 289.25
+Account Before: 11937.57651347261
+Account After: 0.0
+Updated Quantity: 41.16761476988393
+-------------------
+2017-12-18T23:20:00.000000Z
+SELL ORDER
+Crypto Price @: 303.32
+Account Before: 0.0
+Account After: 12455.743509721191
+Updated Quantity: 0.0
+Gain: 4.340638115816757
+-------------------
+Time Now: 2017-12-18T23:30:00.000000Z
+BUY ORDER
+Crypto Price @: 308.0
+Account Before: 12455.743509721191
+Account After: 0.0
+Updated Quantity: 40.339623866710674
+-------------------
+2017-12-19T00:00:00.000000Z
+SELL ORDER
+Crypto Price @: 308.25
+Account Before: 0.0
+Account After: 12403.602334271282
+Updated Quantity: 0.0
+Gain: -0.4186115056818204
+-------------------
+Time Now: 2017-12-19T00:50:00.000000Z
+BUY ORDER
+Crypto Price @: 302.1
+Account Before: 12403.602334271282
+Account After: 0.0
+Updated Quantity: 40.95529072636744
+-------------------
+2017-12-19T01:40:00.000000Z
+SELL ORDER
+Crypto Price @: 302.35
+Account Before: 0.0
+Account After: 12351.875070739405
+Updated Quantity: 0.0
+Gain: -0.41703419811318726
+-------------------
+Time Now: 2017-12-19T02:30:00.000000Z
+BUY ORDER
+Crypto Price @: 300.72
+Account Before: 12351.875070739405
+Account After: 0.0
+Updated Quantity: 40.971652643863244
+-------------------
+2017-12-19T03:40:00.000000Z
+SELL ORDER
+Crypto Price @: 309.0
+Account Before: 0.0
+Account After: 12628.59006528636
+Updated Quantity: 0.0
+Gain: 2.240267108938553
+-------------------
+Time Now: 2017-12-19T04:00:00.000000Z
+BUY ORDER
+Crypto Price @: 307.85
+Account Before: 12628.59006528636
+Account After: 0.0
+Updated Quantity: 40.919339256531245
+-------------------
+2017-12-19T05:00:00.000000Z
+SELL ORDER
+Crypto Price @: 319.0
+Account Before: 0.0
+Account After: 13020.636049776384
+Updated Quantity: 0.0
+Gain: 3.1044319473769653
+-------------------
+Time Now: 2017-12-19T05:50:00.000000Z
+BUY ORDER
+Crypto Price @: 315.62
+Account Before: 13020.636049776384
+Account After: 0.0
+Updated Quantity: 41.151018502160646
+-------------------
+2017-12-19T06:30:00.000000Z
+SELL ORDER
+Crypto Price @: 315.56
+Account Before: 0.0
+Account After: 12953.15136004546
+Updated Quantity: 0.0
+Gain: -0.5182902699448578
+-------------------
+Time Now: 2017-12-19T07:20:00.000000Z
+BUY ORDER
+Crypto Price @: 311.9
+Account Before: 12953.15136004546
+Account After: 0.0
+Updated Quantity: 41.42599705561189
+-------------------
+2017-12-19T07:50:00.000000Z
+SELL ORDER
+Crypto Price @: 313.66
+Account Before: 0.0
+Account After: 12961.194040872067
+Updated Quantity: 0.0
+Gain: 0.06209053382496134
+-------------------
+Time Now: 2017-12-19T09:10:00.000000Z
+BUY ORDER
+Crypto Price @: 306.82
+Account Before: 12961.194040872067
+Account After: 0.0
+Updated Quantity: 42.13803225268851
+-------------------
+2017-12-19T09:40:00.000000Z
+SELL ORDER
+Crypto Price @: 308.7
+Account Before: 0.0
+Account After: 12975.49053001393
+Updated Quantity: 0.0
+Gain: 0.110302253764433
+-------------------
+Time Now: 2017-12-19T10:40:00.000000Z
+BUY ORDER
+Crypto Price @: 300.61
+Account Before: 12975.49053001393
+Account After: 0.0
+Updated Quantity: 43.05595889587471
+-------------------
+2017-12-19T11:00:00.000000Z
+SELL ORDER
+Crypto Price @: 296.0
+Account Before: 0.0
+Account After: 12712.702423595967
+Updated Quantity: 0.0
+Gain: -2.0252652939023923
+-------------------
+Time Now: 2017-12-19T11:30:00.000000Z
+BUY ORDER
+Crypto Price @: 294.0
+Account Before: 12712.702423595967
+Account After: 0.0
+Updated Quantity: 43.13238322291489
+-------------------
+2017-12-19T12:00:00.000000Z
+SELL ORDER
+Crypto Price @: 291.84
+Account Before: 0.0
+Account After: 12556.285332976042
+Updated Quantity: 0.0
+Gain: -1.2304000000000028
+-------------------
+Time Now: 2017-12-19T12:20:00.000000Z
+BUY ORDER
+Crypto Price @: 295.45
+Account Before: 12556.285332976042
+Account After: 0.0
+Updated Quantity: 42.3926032142278
+-------------------
+2017-12-19T14:10:00.000000Z
+SELL ORDER
+Crypto Price @: 303.2
+Account Before: 0.0
+Account After: 12821.303701317484
+Updated Quantity: 0.0
+Gain: 2.110643086816728
+-------------------
+Time Now: 2017-12-19T14:40:00.000000Z
+BUY ORDER
+Crypto Price @: 300.0
+Account Before: 12821.303701317484
+Account After: 0.0
+Updated Quantity: 42.630834806880635
+-------------------
+2017-12-19T14:50:00.000000Z
+SELL ORDER
+Crypto Price @: 297.68
+Account Before: 0.0
+Account After: 12658.621038048948
+Updated Quantity: 0.0
+Gain: -1.2688464999999831
+-------------------
+Time Now: 2017-12-19T15:20:00.000000Z
+BUY ORDER
+Crypto Price @: 297.69
+Account Before: 12658.621038048948
+Account After: 0.0
+Updated Quantity: 42.41652217223899
+-------------------
+2017-12-19T16:40:00.000000Z
+SELL ORDER
+Crypto Price @: 301.99
+Account Before: 0.0
+Account After: 12777.342116967468
+Updated Quantity: 0.0
+Gain: 0.9378673914138872
+-------------------
+Time Now: 2017-12-19T17:00:00.000000Z
+BUY ORDER
+Crypto Price @: 302.69
+Account Before: 12777.342116967468
+Account After: 0.0
+Updated Quantity: 42.10710218928623
+-------------------
+2017-12-19T17:40:00.000000Z
+SELL ORDER
+Crypto Price @: 305.01
+Account Before: 0.0
+Account After: 12810.979520657309
+Updated Quantity: 0.0
+Gain: 0.26325822210843985
+-------------------
+Time Now: 2017-12-19T18:30:00.000000Z
+BUY ORDER
+Crypto Price @: 303.89
+Account Before: 12810.979520657309
+Account After: 0.0
+Updated Quantity: 42.05124246225827
+-------------------
+2017-12-19T19:40:00.000000Z
+SELL ORDER
+Crypto Price @: 309.9
+Account Before: 0.0
+Account After: 12999.100838956203
+Updated Quantity: 0.0
+Gain: 1.4684382095495057
+-------------------
+Time Now: 2017-12-19T19:50:00.000000Z
+BUY ORDER
+Crypto Price @: 311.3
+Account Before: 12999.100838956203
+Account After: 0.0
+Updated Quantity: 41.653077696302
+-------------------
+2017-12-19T20:00:00.000000Z
+SELL ORDER
+Crypto Price @: 309.6
+Account Before: 0.0
+Account After: 12863.553372638164
+Updated Quantity: 0.0
+Gain: -1.0427449405717781
+-------------------
+Time Now: 2017-12-19T20:50:00.000000Z
+BUY ORDER
+Crypto Price @: 305.0
+Account Before: 12863.553372638164
+Account After: 0.0
+Updated Quantity: 42.070145866251046
+-------------------
+2017-12-19T21:00:00.000000Z
+SELL ORDER
+Crypto Price @: 306.26
+Account Before: 0.0
+Account After: 12852.191865815552
+Updated Quantity: 0.0
+Gain: -0.08832323770489912
+-------------------
+Time Now: 2017-12-19T22:00:00.000000Z
+BUY ORDER
+Crypto Price @: 291.0
+Account Before: 12852.191865815552
+Account After: 0.0
+Updated Quantity: 44.055193766841974
+-------------------
+2017-12-19T22:50:00.000000Z
+SELL ORDER
+Crypto Price @: 301.96
+Account Before: 0.0
+Account After: 13269.649044061014
+Updated Quantity: 0.0
+Gain: 3.248139948453625
+-------------------
+Acccount Information - LTC-EUR
+Crypto Quantity:  0.0
+Account Value:  13269.649044061014
+Winning trades: 200
+Losing trades: 77
+Win Ratio: 72.20216606498195

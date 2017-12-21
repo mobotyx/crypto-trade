@@ -5,6 +5,7 @@ import time
 import pandas as pd
 from dateutil import parser
 import ntplib
+import os 
 
 import xchange_reader as xr
 import strategy as stg
@@ -59,6 +60,7 @@ def run_realtime(xreader, strategy):
 # And we iterate in a similar fashion as the real-time run
 def run_backtest(xreader, strategy):
     global granularity
+    global file
 
     # First and last from the file define when we start and when we stop
     ts_start    = xreader.get_gdaxcsv_timestamp(backtest_file_path, select='first')
@@ -77,8 +79,31 @@ def run_backtest(xreader, strategy):
 
     start = datetime.fromtimestamp(ts_start)
     end   = datetime.fromtimestamp(ts_end)
+    
+    time_now = datetime.now()
 
-    mopool = mp.MoneyPool(currency, investment) # Init Money Pooler with our initial Investment 
+    start_str = "{:%Y-%m-%dT%H:%M:%S}".format(start)  
+    end_str   = "{:%Y-%m-%dT%H:%M:%S}".format(end)
+    now_str   = "{:%Y-%m-%dT%Hh%Mm%Ss}".format(time_now)
+    
+    # open log file 
+    target_folder = "log/"
+    dir = os.path.dirname(target_folder)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    file = open("log/StrategyRun-" + now_str + ".txt", "w")
+   
+    LogPrint("STRATEGY RUN - CROSSING MA")
+    LogPrint("GRANULARITY(S): " + str(granularity))
+    LogPrint("MEMORY(S): " + str(memory))
+    LogPrint("INITIAL INVESTMENT(EUR): " + str(investment))
+    LogPrint("TRADED CURRENCY: " + currency)
+    LogPrint("BACKTEST CSV FILE: " + backtest_file_path)
+    LogPrint("START TIME: " + start_str)
+    LogPrint("END TIME: " + end_str)
+    LogPrint("----------------")
+
+    mopool = mp.MoneyPool(currency, investment, log_file=file) # Init Money Pooler with our initial Investment 
     
     nb_winning = 0  # number of winning trades 
     nb_losing = 0   # number of losing trades
@@ -117,7 +142,7 @@ def run_backtest(xreader, strategy):
 
         if sell_sig == stg.Signal.SELL_STONG:
             if mopool.get_quantity() != 0.0:
-                print(time_now)
+                LogPrint(time_now)
                 
                 if current_value - prev_buy_value > 0:
                     nb_winning = nb_winning + 1
@@ -126,17 +151,17 @@ def run_backtest(xreader, strategy):
                 
                 mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
-                print("Gain: " + str(100*(mopool.get_account() - prev_account) / prev_account))
-                print("-------------------")
+                LogPrint("Gain: " + str(100*(mopool.get_account() - prev_account) / prev_account))
+                LogPrint("-------------------")
                 prev_account = mopool.get_account()
                 
 
         elif buy_sig == stg.Signal.BUY_STONG:
             if mopool.get_account() > 0.0:
-                print(time_now)
+                LogPrint( "Time Now: " + time_now)
                 prev_buy_value = float(df.iloc[0]['close'])
                 mopool.buy_order(mopool.get_account(), current_value, True)
-                print("-------------------")
+                LogPrint("-------------------")
         
         start = start + timedelta(seconds=granularity) # advance time
         #time.sleep(1)
@@ -148,9 +173,9 @@ def run_backtest(xreader, strategy):
 
     mopool.print_account()
     profit_ratio  = nb_winning/(nb_winning+nb_losing)
-    print("Winning trades: " + str(nb_winning))
-    print("Losing trades: " + str(nb_losing))
-    print("Win Ratio: " + str(profit_ratio*100.0))
+    LogPrint("Winning trades: " + str(nb_winning))
+    LogPrint("Losing trades: " + str(nb_losing))
+    LogPrint("Win Ratio: " + str(profit_ratio*100.0))
 
 def main(argv):
 
@@ -161,12 +186,12 @@ def main(argv):
     # in the past where it should start 
 
     if len(argv) == 0:
-        print("Trader Started Running in Real-Time Mode\n")
+        LogPrint("Trader Started Running in Real-Time Mode\n")
     elif len(argv) !=1:
-        print("Usage : Start without Args for Real-Time or -b for backtesting for a number of previous days\n")
+        LogPrint("Usage : Start without Args for Real-Time or -b for backtesting for a number of previous days\n")
         sys.exit(2)
     elif argv[0] !='-b':
-        print("Usage : Start without Args for Real-Time or -b  for backtesting for a number of previous days\n")
+        LogPrint("Usage : Start without Args for Real-Time or -b  for backtesting for a number of previous days\n")
         sys.exit(2)
     else:
         back_mode = True

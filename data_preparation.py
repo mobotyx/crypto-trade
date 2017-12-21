@@ -14,6 +14,7 @@ cur_date = cur_day + "T23:00:00.000000Z"
 ndays = 15 # number of days to go behind
 granularity = 600 # 10 minutes
 currency = 'LTC-EUR'
+#currency = 'BTC-EUR'
 
 xreader = xr.XChangeReader()
 
