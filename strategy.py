@@ -27,7 +27,7 @@ class Strategy:
         sig = Signal.NONE
         n  = len(df.index)
         name1='MA_{n}'.format(n=n)
-        name2='MA_{n}'.format(n=int(n/3))
+        name2='MA_{n}'.format(n=int(n/2))
         df = ti.MA(df,int(n/2), col_name=name2)  # fast moving average
         df = ti.MA(df,n, col_name=name1)    # slow moving average
         

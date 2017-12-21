@@ -80,6 +80,10 @@ def run_backtest(xreader, strategy):
 
     mopool = mp.MoneyPool(currency, investment) # Init Money Pooler with our initial Investment 
     
+    nb_winning = 0  # number of winning trades 
+    nb_losing = 0   # number of losing trades
+    prev_buy_value = 0.0
+    
     while(start < end):
         # emulate current time as old time by X days from now
         # Note : Server always return +1 hour results from the request UTC time
@@ -98,13 +102,7 @@ def run_backtest(xreader, strategy):
 
         # will be empty when timestamp goes out of bounds
         if df.empty:
-            print("End of Data - Closing Last position if any")
-            # sell all in the end
-            if mopool.get_quantity() != 0.0:
-                print(time_now)
-                mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
-            mopool.print_account()
-            return 
+            break
 
         df = strategy.tick(df)
        # print(df)
@@ -116,11 +114,18 @@ def run_backtest(xreader, strategy):
         if sell_sig == stg.Signal.SELL_STONG:
             if mopool.get_quantity() != 0.0:
                 print(time_now)
+                
+                if current_value - prev_buy_value > 0:
+                    nb_winning = nb_winning + 1
+                else:
+                    nb_losing = nb_losing + 1
+                
                 mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
         elif buy_sig == stg.Signal.BUY_STONG:
             if mopool.get_account() > 0.0:
                 print(time_now)
+                prev_buy_value = float(df.iloc[0]['close'])
                 mopool.buy_order(mopool.get_account(), current_value, True)
         
         
@@ -133,6 +138,10 @@ def run_backtest(xreader, strategy):
         mopool.sell_order(mopool.get_quantity(), current_value, True) # sell all
 
     mopool.print_account()
+    profit_ratio  = nb_winning/(nb_winning+nb_losing)
+    print("Winning trades: " + str(nb_winning))
+    print("Losing trades: " + str(nb_losing))
+    print("Win Ratio: " + str(profit_ratio*100.0))
 
 def main(argv):
 
